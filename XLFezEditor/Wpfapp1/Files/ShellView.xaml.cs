@@ -18,7 +18,7 @@ namespace XLFezEditor
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class ShellView : UserControl
+    public partial class ShellView : Window
     {
         public ShellView()
         {

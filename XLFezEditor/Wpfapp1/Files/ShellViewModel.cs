@@ -1,26 +1,21 @@
 ﻿using Caliburn.Micro;
 using System;
+using System.Windows;
+using XLFezEditor.Files;
 
 namespace XLFezEditor
 {
     public class ShellViewModel : PropertyChangedBase
     {
         public IEventAggregator events;
-        private BrowseFileViewModel _buttonsVM;
-        public BrowseFileViewModel ButtonsVM {
-            get { return _buttonsVM; }
+        private XLFDataViewModel _xlfDataVM;
+        public XLFDataViewModel XLFDataVM
+        {
+            get { return _xlfDataVM; }
             set
             {
-                _buttonsVM = value;
-                NotifyOfPropertyChange(() => ButtonsVM);
-            }
-        }
-        private TextViewModel _textVM;
-        public TextViewModel TextVM { get { return _textVM; }
-            set
-            {
-                _textVM = value;
-                NotifyOfPropertyChange(() => TextVM);
+                _xlfDataVM = value;
+                NotifyOfPropertyChange(() => XLFDataVM);
             }
         }
 
@@ -28,8 +23,8 @@ namespace XLFezEditor
         {
             events = new EventAggregator();
 
-            ButtonsVM = new BrowseFileViewModel(events);
-            TextVM = new TextViewModel(events);
+            XLFDataVM = new XLFDataViewModel();
         }
+        
     }
 }
