@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="XLFezEditor.Files.BrowseFile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignWidth="581.318" Height="90.11">
+    <Grid Margin="0,0,-164,0">
+        <Label Content="Import XLF" FontSize="20" Margin="0,0,0,50"/>
+        <TextBox x:Name="FilePath" Margin="174,0,259,50" />
+        <Button x:Name="BrowseForFile" Content="Browse..." Margin="491,0,163,50" />
+        <Label Content="Import Master XLF" Margin="0,50,0,0" FontSize="20" />
+        <TextBox x:Name="MasterFilePath" Margin="174,50,259,0"/>
+        <Button x:Name="BrowseForMasterFile" Content="Browse..." Margin="491,50,163,0"/>
+        <Label Content="(Optional)" Margin="582,50,0,0" FontSize="20" />
+
+
+    </Grid>
+</UserControl>

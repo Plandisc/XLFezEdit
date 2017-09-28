@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLFezEditor", "WpfApp1\XLFezEditor.csproj", "{FDB63805-0A22-49FD-BBDD-7098F6DB5B36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDB63805-0A22-49FD-BBDD-7098F6DB5B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB63805-0A22-49FD-BBDD-7098F6DB5B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB63805-0A22-49FD-BBDD-7098F6DB5B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB63805-0A22-49FD-BBDD-7098F6DB5B36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EDAD3DE-EEF6-4651-AB5E-B104E8B0834A}
+	EndGlobalSection
+EndGlobal
