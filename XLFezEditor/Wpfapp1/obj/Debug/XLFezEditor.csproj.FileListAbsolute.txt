@@ -36,7 +36,6 @@ C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\bin\Debug\System.Windows.Intera
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\bin\Debug\Caliburn.Micro.xml
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\bin\Debug\Caliburn.Micro.Platform.xml
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\bin\Debug\Caliburn.Micro.Platform.Core.xml
-C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.csprojResolveAssemblyReference.cache
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\BrowseFile.baml
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\TextView.baml
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\BrowseFile.g.cs
@@ -56,3 +55,4 @@ C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.exe
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.pdb
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\XLFData.g.cs
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\XLFData.baml
+C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.csprojResolveAssemblyReference.cache

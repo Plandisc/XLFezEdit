@@ -75,7 +75,7 @@
       <DependentUpon>BrowseFile.xaml</DependentUpon>
     </Compile>
     <Compile Include="Files\BrowseFileViewModel.cs" />
-    <Compile Include="Files\OpenFileDialogViewModel.cs" />
+    <Compile Include="Files\ContextGroup.cs" />
     <Compile Include="Files\ShellViewModel.cs" />
     <Compile Include="Files\ShellView.xaml.cs">
       <DependentUpon>ShellView.xaml</DependentUpon>
@@ -86,9 +86,7 @@
     <Compile Include="Files\TextViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Files\OpenFileDialog.xaml.cs">
-      <DependentUpon>OpenFileDialog.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Files\TransUnit.cs" />
     <Compile Include="Files\XLFData.xaml.cs">
       <DependentUpon>XLFData.xaml</DependentUpon>
     </Compile>
@@ -129,10 +127,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Files\TextView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Files\OpenFileDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
