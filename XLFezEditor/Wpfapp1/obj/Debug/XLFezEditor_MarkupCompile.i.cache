@@ -9,12 +9,21 @@ XLFezEditor
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\My Stuff\Source Tree\XLFezEditor\WpfApp1\Files\App.xaml
 51648201132
 
 19-1320338436
 701783506830
 Files\BrowseFile.xaml;Files\ShellView.xaml;Files\TextView.xaml;Files\OpenFileDialog.xaml;Files\XLFData.xaml;
+=======
+C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\Files\App.xaml
+41401787267
+
+1911078192
+70-439723900
+Files\BrowseFile.xaml;Files\ShellView.xaml;Files\TextView.xaml;Files\XLFData.xaml;
+>>>>>>> 9ad8cee7f21523e071a5520772754e6ea3f2cec7
 
 True
 

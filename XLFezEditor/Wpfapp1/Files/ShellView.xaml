@@ -25,9 +25,9 @@
         </Grid.RowDefinitions>
         <DockPanel LastChildFill="False" Grid.ColumnSpan="4" Background="#FFF0F0F0">
             <Menu DockPanel.Dock="Top" Height="20"  >
-                <MenuItem Header="_File"  FontSize="10" >
+                <MenuItem Header="_File"  FontSize="10"  >
                     <MenuItem Header="_New" />
-                    <MenuItem Header="_Open" />
+                    <MenuItem Header="_Open" x:Name="BtnOpenFile_Click"/>
                     <MenuItem Header="_Save" />
                     <Separator />
                     <MenuItem Header="_Exit" />

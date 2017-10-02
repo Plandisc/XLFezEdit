@@ -1,15 +1,15 @@
 ﻿using Caliburn.Micro;
 using System;
 using System.Collections.Generic;
-
+using System.Collections.ObjectModel;
 
 namespace XLFezEditor.Files
 {
     public class XLFDataViewModel : PropertyChangedBase
     {
 
-        private IObservableCollection<string> _data;
-        public IObservableCollection<string> Data
+        private BindableCollection<TransUnit> _data;
+        public BindableCollection<TransUnit> Data
         {
             get { return _data; }
             set
@@ -20,12 +20,13 @@ namespace XLFezEditor.Files
 
             // linq XLF conversion reading and parsing to a list
         }
-        public XLFDataViewModel()
+        public XLFDataViewModel() {}
+
+        public void bindList(List<TransUnit> Data)
         {
-            List<string> strs = new List<string>();
-            strs.Add("what");
-            strs.Add("the");
-            strs.Add("..");
+            BindableCollection<TransUnit> dataCollection = new BindableCollection<TransUnit>(Data);
+            this.Data = dataCollection;
+            Console.WriteLine("data bound");
         }
     }
 }
