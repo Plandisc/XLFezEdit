@@ -19,7 +19,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="20" />
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" MinHeight="123" />
             <RowDefinition Height="Auto" />
 
         </Grid.RowDefinitions>
@@ -44,9 +44,9 @@
         <Rectangle Grid.Column="2" Grid.RowSpan="2" HorizontalAlignment="Right" VerticalAlignment="Stretch" Width="1" Stroke="Black" />
 
         <Label Content="Details" Grid.Column="3" Grid.Row="1" Background="LightGray" FontSize="20" HorizontalContentAlignment="Center"></Label>
-        <Separator Grid.ColumnSpan="4" Grid.Row="2" Background="Black" Margin="0,0,0,2"/>
-
-        <ContentControl Content="{Binding XLFData}" Grid.Row="2" Grid.ColumnSpan="4" Margin="0,1,0,0" Grid.RowSpan="2"/>
+        <Separator Grid.ColumnSpan="4" Background="Black" Margin="0,0,0,63" Grid.RowSpan="3" />
+        <ContentControl Grid.ColumnSpan="4" Grid.Row="3" x:Name="XLFDataVM" />
     </Grid>
+
 
 </Window>

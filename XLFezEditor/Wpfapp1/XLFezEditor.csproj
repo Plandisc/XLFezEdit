@@ -87,8 +87,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Files\TransUnit.cs" />
-    <Compile Include="Files\XLFData.xaml.cs">
-      <DependentUpon>XLFData.xaml</DependentUpon>
+    <Compile Include="Files\XLFDataView.xaml.cs">
+      <DependentUpon>XLFDataView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Files\XLFDataViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -130,7 +130,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Files\XLFData.xaml">
+    <Page Include="Files\XLFDataView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

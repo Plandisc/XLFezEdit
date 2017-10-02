@@ -38,17 +38,24 @@ namespace XLFezEditor
             var openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
             {
-                XElement xelement = XElement.Load(openFileDialog.FileName);
                 XNamespace xnamespace = "urn:oasis:names:tc:xliff:document:1.2";
+                XDocument tmp = XDocument.Load(openFileDialog.FileName);
 
-                IEnumerable<XElement> reader = xelement.Element(xnamespace + "file").Element(xnamespace + "body").Elements();
+                var doc = tmp.Root.ToString();
+                doc = doc.Replace("&gt;", ">").Replace("&lt;", "<");
+                File.WriteAllText(openFileDialog.FileName, doc);               
+
+                IEnumerable<XElement> reader = tmp.Root.Element(xnamespace + "file").Element(xnamespace + "body").Elements();
 
                 var xElements = reader.ToList();
+                XDocument tmp2 = new XDocument(xElements);
                 var transUnits = xElements.Select(tu => new TransUnit(tu)).ToList();
-                Console.WriteLine("before binding");
                 XLFDataVM.bindList(transUnits);
-
             }
+        }
+        public void BtnSaveXLFFile()
+        {
+
         }
 
     }

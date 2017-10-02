@@ -10,7 +10,6 @@
         {
             this.source = source;
             this.lineNumber = lineNumber;
-
         }
     }
 }

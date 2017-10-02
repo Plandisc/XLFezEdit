@@ -10,7 +10,7 @@ namespace XLFezEditor.Files
     public class TransUnit
     {
         private readonly XElement element;
-        private const string xnamespace = "urn:oasis:names:tc:xliff:document:1.2"; // TODO Get namespace from document
+        private XNamespace xnamespace = "urn:oasis:names:tc:xliff:document:1.2"; // TODO Get namespace from document
 
         public TransUnit(XElement element)
         {
@@ -43,17 +43,16 @@ namespace XLFezEditor.Files
         {
             get
             {
-                return element.Elements("context-group").Select(cg => GetFileAndLineNumber(cg)).ToList();
+                return element.Elements(xnamespace + "context-group").Select(cg => GetFileAndLineNumber(cg)).ToList();
             }
-
         }
 
         private ContextGroup GetFileAndLineNumber(XElement cg)
         {
             var source = GetElementValue("context-group", "context", "sourcefile");
             var lineNumber = GetElementValue("context-group", "context", "linenumber");
-
-            return new ContextGroup(source, lineNumber);
+            var list = new ContextGroup(source, lineNumber);
+            return list;
         }
 
         public string LineNumber
@@ -94,19 +93,47 @@ namespace XLFezEditor.Files
 
         private string GetElementValue(XElement element, string nodeName, string attributeName)
         {
-
-            XElement xElement = element.Element(xnamespace + nodeName);
-
-
-            if (xElement == null)
+            if (element.HasElements)
             {
-                return "";
+              List<XElement>  elementList = element.Elements().ToList();
+                if (elementList == null)
+                {
+                    return "";
+                }
+                foreach (var listElement in elementList) // iterate through every element in the list
+                {
+                    if (listElement.HasAttributes)
+                    {
+                        var list = listElement.Attributes().ToList();
+                        foreach (var item in list) // iterate through every attribute in the element
+                        {
+                            if (item.Value.Equals(attributeName))
+                            {
+                                return listElement.Value;
+                            }
+                        }
+                    }
+
+                }
+                
             }
             else
-            {
-                if (xElement.Attribute(attributeName) != null)
+            { 
+                XElement xElement = element.Element(xnamespace + nodeName);
+                if (xElement == null)
                 {
-                    return xElement.Value;
+                    return "";
+                }
+                if (xElement.HasAttributes)
+                {
+                    var list = xElement.Attributes().ToList();
+                    foreach (var item in list)  // iterate through every attribute in the element
+                    {
+                        if (item.Value.Equals(attributeName))
+                        {
+                            return xElement.Value;
+                        }
+                    }
                 }
             }
 
@@ -124,7 +151,7 @@ namespace XLFezEditor.Files
             }
             else
             {
-                return GetElementValue(nodeName, attributeName);
+                return GetElementValue(xElement,nodeName, attributeName);
             }
         }
 

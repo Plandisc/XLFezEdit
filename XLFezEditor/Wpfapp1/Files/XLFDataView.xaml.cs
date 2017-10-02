@@ -18,9 +18,9 @@ namespace XLFezEditor.Files
     /// <summary>
     /// Interaction logic for XLFData.xaml
     /// </summary>
-    public partial class XLFData : UserControl
+    public partial class XLFDataView : UserControl
     {
-        public XLFData()
+        public XLFDataView()
         {
             InitializeComponent();
         }
