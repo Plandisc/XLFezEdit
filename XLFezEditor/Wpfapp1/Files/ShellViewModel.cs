@@ -48,7 +48,6 @@ namespace XLFezEditor
                 IEnumerable<XElement> reader = tmp.Root.Element(xnamespace + "file").Element(xnamespace + "body").Elements();
 
                 var xElements = reader.ToList();
-                XDocument tmp2 = new XDocument(xElements);
                 var transUnits = xElements.Select(tu => new TransUnit(tu)).ToList();
                 XLFDataVM.bindList(transUnits);
             }

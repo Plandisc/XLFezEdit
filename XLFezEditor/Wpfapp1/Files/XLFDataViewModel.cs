@@ -2,6 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace XLFezEditor.Files
 {
@@ -20,7 +23,7 @@ namespace XLFezEditor.Files
 
             // linq XLF conversion reading and parsing to a list
         }
-        public XLFDataViewModel() {}
+        public XLFDataViewModel() { }
 
         public void bindList(List<TransUnit> Data)
         {

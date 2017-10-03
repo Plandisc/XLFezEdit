@@ -39,7 +39,7 @@ namespace XLFezEditor.Files
             }
         }
 
-        public List<ContextGroup> SourceFile
+        public List<ContextGroup> Details
         {
             get
             {
@@ -53,6 +53,14 @@ namespace XLFezEditor.Files
             var lineNumber = GetElementValue("context-group", "context", "linenumber");
             var list = new ContextGroup(source, lineNumber);
             return list;
+        }
+
+        public string SourceFile
+        {
+            get
+            {
+               return GetElementValue("context-group", "context", "sourcefile");
+            }
         }
 
         public string LineNumber

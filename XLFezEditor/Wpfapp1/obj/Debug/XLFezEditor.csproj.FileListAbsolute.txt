@@ -53,9 +53,6 @@ C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.csproj.Ge
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.csproj.CoreCompileInputs.cache
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.exe
 C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.pdb
-C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\XLFData.g.cs
-C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\XLFData.baml
-C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.csprojResolveAssemblyReference.cache
 D:\My Stuff\Source Tree\XLFezEditor\WpfApp1\bin\Debug\XLFezEditor.exe.config
 D:\My Stuff\Source Tree\XLFezEditor\WpfApp1\bin\Debug\XLFezEditor.exe
 D:\My Stuff\Source Tree\XLFezEditor\WpfApp1\bin\Debug\XLFezEditor.pdb
@@ -84,3 +81,5 @@ D:\My Stuff\Source Tree\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.Properties.Res
 D:\My Stuff\Source Tree\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.csproj.GenerateResource.Cache
 D:\My Stuff\Source Tree\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.exe
 D:\My Stuff\Source Tree\XLFezEditor\WpfApp1\obj\Debug\XLFezEditor.pdb
+C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\XLFDataView.g.cs
+C:\work\XLFezEditorTest2\tmp\XLFezEditor\WpfApp1\obj\Debug\Files\XLFDataView.baml
