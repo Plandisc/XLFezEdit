@@ -13,11 +13,11 @@ namespace XLFezEditor
 {
     public class ShellViewModel : PropertyChangedBase
     {
+        public static XNamespace xnamespace = "urn:oasis:names:tc:xliff:document:1.2";
+
         public IEventAggregator events;
         private XLFDataViewModel _xlfDataVM;
-        private XDocument openedXMLFile;
-        private string openedDocumentPath;
-        private List<XElement> xElements;
+        private XLIFFile xlifFile;
 
         public XLFDataViewModel XLFDataVM
         {
@@ -42,32 +42,70 @@ namespace XLFezEditor
             var openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
             {
-                XNamespace xnamespace = "urn:oasis:names:tc:xliff:document:1.2";
-                openedXMLFile = XDocument.Load(openFileDialog.FileName);
-                openedDocumentPath = openFileDialog.FileName;
+                xlifFile = new XLIFFile();
+                xlifFile.Load(openFileDialog.FileName);
 
-
-
-                IEnumerable<XElement> reader = openedXMLFile.Root.Element(xnamespace + "file").Element(xnamespace + "body").Elements();
-
-                var xElements = reader.ToList();
-                var transUnits = xElements.Select(tu => new TransUnit(tu)).ToList();
-                XLFDataVM.bindList(transUnits);
+                XLFDataVM.bindList(xlifFile.TransUnits);
             }
         }
         public void BtnSaveXLFFile()
         {
-            //var doc = openedXMLFile.Root.ToString();
-            //doc = doc.Replace("&gt;", ">").Replace("&lt;", "<");
-            //File.WriteAllText(openFileDialog.FileName, doc);
-            var tmp = new XDocument(xElements);
-            openedXMLFile.Save(openedDocumentPath, SaveOptions.None);
-            Console.WriteLine("Saved to " + openedDocumentPath);
+            if (xlifFile != null)
+            {
+                xlifFile.Save();
+            }
+            else
+            {
+                string message = "No File Opened";
+                string caption = "Error";
+                MessageBoxButton buttons = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Error;
+                MessageBox.Show(message, caption, buttons, icon);
+            }
         }
 
         public void BtnSaveAs()
         {
+            if (xlifFile != null)
+            {
+                var saveAsFileDialog = new SaveFileDialog();
+                if (saveAsFileDialog.ShowDialog() == true)
+                {
+                    xlifFile.SaveAs(saveAsFileDialog.FileName);
+                }
+            }
+            else
+            {
+                string message = "No File Opened";
+                string caption = "Error";
+                MessageBoxButton buttons = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Error;
+                MessageBox.Show(message, caption, buttons, icon);
+            }
 
+        }
+        public void BtnUpdateFrom()
+        {
+            if (xlifFile != null)
+            {
+                var openFileDialog = new OpenFileDialog();
+                if (openFileDialog.ShowDialog() == true)
+                {
+                    var master = new XLIFFile();
+                    master.Load(openFileDialog.FileName);
+                    xlifFile.Update(master);
+                    XLFDataVM.bindList(xlifFile.TransUnits);
+                }
+
+            }
+            else
+            {
+                string message = "No File Opened";
+                string caption = "Error";
+                MessageBoxButton buttons = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Error;
+                MessageBox.Show(message, caption, buttons, icon);
+            }
         }
 
     }

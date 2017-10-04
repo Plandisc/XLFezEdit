@@ -43,6 +43,11 @@ namespace XLFezEditor.Files
             scv.ScrollToVerticalOffset(scv.VerticalOffset - e.Delta);
             e.Handled = true;
         }
-      
+
+        private void Copy(object sender, RoutedEventArgs e)
+        {
+            TransUnit obj = ((FrameworkElement)sender).DataContext as TransUnit;
+            obj.Target = obj.Source; // decode better
+        }
     }
 }

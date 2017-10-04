@@ -1,13 +1,16 @@
-﻿using System;
+﻿using Caliburn.Micro;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace XLFezEditor.Files
 {
-    public class TransUnit
+    public class TransUnit : PropertyChangedBase
     {
         private readonly XElement element;
         private XNamespace xnamespace = "urn:oasis:names:tc:xliff:document:1.2"; // TODO Get namespace from document
@@ -21,8 +24,14 @@ namespace XLFezEditor.Files
         {
             get
             {
-                Console.WriteLine(GetElementValue("source"));
                 return GetElementValue("source");
+            }
+        }
+        public string Id
+        {
+            get
+            {
+                return element.Attribute("id").Value;
             }
         }
 
@@ -35,8 +44,9 @@ namespace XLFezEditor.Files
             }
             set
             {
-                var tmp = GetElementValue("target");
                 element.Element(xnamespace + "target").Value = value;
+                NotifyOfPropertyChange(()=>Target);
+
             }
         }
 
@@ -91,7 +101,8 @@ namespace XLFezEditor.Files
             }
             else
             {
-                return xElement.Value;
+                var nodeValue = element.Element(xnamespace + nodeName).Nodes().Select(s => s.NodeType == XmlNodeType.Text ? SecurityElement.Escape(s.ToString()) : s.ToString());
+                return string.Join("", nodeValue);
             }
         }
 
