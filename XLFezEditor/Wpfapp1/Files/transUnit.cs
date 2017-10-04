@@ -35,7 +35,8 @@ namespace XLFezEditor.Files
             }
             set
             {
-                element.Element("target").Value = value;
+                var tmp = GetElementValue("target");
+                element.Element(xnamespace + "target").Value = value;
             }
         }
 

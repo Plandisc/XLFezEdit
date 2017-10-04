@@ -24,10 +24,5 @@ namespace XLFezEditor
         {
             InitializeComponent();
         }
-
-        private void TextView_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

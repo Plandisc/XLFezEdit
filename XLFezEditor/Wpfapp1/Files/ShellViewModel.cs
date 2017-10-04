@@ -15,6 +15,10 @@ namespace XLFezEditor
     {
         public IEventAggregator events;
         private XLFDataViewModel _xlfDataVM;
+        private XDocument openedXMLFile;
+        private string openedDocumentPath;
+        private List<XElement> xElements;
+
         public XLFDataViewModel XLFDataVM
         {
             get { return _xlfDataVM; }
@@ -39,13 +43,12 @@ namespace XLFezEditor
             if (openFileDialog.ShowDialog() == true)
             {
                 XNamespace xnamespace = "urn:oasis:names:tc:xliff:document:1.2";
-                XDocument tmp = XDocument.Load(openFileDialog.FileName);
+                openedXMLFile = XDocument.Load(openFileDialog.FileName);
+                openedDocumentPath = openFileDialog.FileName;
 
-                var doc = tmp.Root.ToString();
-                doc = doc.Replace("&gt;", ">").Replace("&lt;", "<");
-                File.WriteAllText(openFileDialog.FileName, doc);               
 
-                IEnumerable<XElement> reader = tmp.Root.Element(xnamespace + "file").Element(xnamespace + "body").Elements();
+
+                IEnumerable<XElement> reader = openedXMLFile.Root.Element(xnamespace + "file").Element(xnamespace + "body").Elements();
 
                 var xElements = reader.ToList();
                 var transUnits = xElements.Select(tu => new TransUnit(tu)).ToList();
@@ -53,6 +56,16 @@ namespace XLFezEditor
             }
         }
         public void BtnSaveXLFFile()
+        {
+            //var doc = openedXMLFile.Root.ToString();
+            //doc = doc.Replace("&gt;", ">").Replace("&lt;", "<");
+            //File.WriteAllText(openFileDialog.FileName, doc);
+            var tmp = new XDocument(xElements);
+            openedXMLFile.Save(openedDocumentPath, SaveOptions.None);
+            Console.WriteLine("Saved to " + openedDocumentPath);
+        }
+
+        public void BtnSaveAs()
         {
 
         }

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="1138da74bd361bb51ea0140b82f4e13cadbfae5e" datatype="html">
         <source>Value is required</source>
-	<target>Value is required</target>
+        <target>Value is requiredISH</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\validated-input.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -13,7 +13,7 @@
       </trans-unit>
       <trans-unit id="48d03f3f6ccd9d5b1b6a24a589bd086dba58a0ba" datatype="html">
         <source>Invalid value</source>
-	<target>Invalid value</target>
+        <target>Invalid value</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\validated-input.component.ts</context>
           <context context-type="linenumber">5</context>
@@ -22,7 +22,7 @@
       </trans-unit>
       <trans-unit id="6509ecadef409f4b4e1f081e26a05f6c44e9c638" datatype="html">
         <source>Praise, criticism, comments, questions</source>
-	<target>Praise, criticism, comments, questions</target>
+        <target>Praise, criticism, comments, questions</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\feedback.component.ts</context>
           <context context-type="linenumber">5</context>
@@ -32,7 +32,7 @@
       </trans-unit>
       <trans-unit id="3cf17b11d04f81e677f1ac4d3aa60f13ab1e6cca" datatype="html">
         <source>Enter e-mail if you want a direct answer</source>
-	<target>Enter e-mail if you want a direct answer</target>
+        <target>Enter e-mail if you want a direct answer</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\feedback.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -42,7 +42,7 @@
       </trans-unit>
       <trans-unit id="6d93ad33c0ef4dc0447e4fab3c2e7c16a058b4bc" datatype="html">
         <source>OK</source>
-	<target>OK</target>
+        <target>OK</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\feedback.component.ts</context>
           <context context-type="linenumber">18</context>
@@ -84,7 +84,7 @@
       </trans-unit>
       <trans-unit id="7201ecc8e2350140beefc23231365d82ac835c46" datatype="html">
         <source>Cancel</source>
-	<target>Cancel</target>
+        <target>Cancel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\feedback.component.ts</context>
           <context context-type="linenumber">20</context>
@@ -114,7 +114,7 @@
       </trans-unit>
       <trans-unit id="1e15f8ac6ae942049d7963efc7d3bb09c5d699a4" datatype="html">
         <source>Feedback</source>
-	<target>Feedback</target>
+        <target>Feedback</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\feedback.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="7f4de3dc15a69e6c81c91fdb08e9750cc5438696" datatype="html">
         <source>Sign in</source>
-	<target>Sign in</target>
+        <target>Sign in</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\logon.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -134,7 +134,7 @@
       </trans-unit>
       <trans-unit id="79c95925e92848a92e69b820bffa6342862fff1b" datatype="html">
         <source>Email</source>
-	<target>Email</target>
+        <target>Email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\logon.component.ts</context>
           <context context-type="linenumber">8</context>
@@ -144,7 +144,7 @@
       </trans-unit>
       <trans-unit id="4bc4c82188f59cafd21131433ad3e66ccbe63ba5" datatype="html">
         <source>Password</source>
-	<target>Password</target>
+        <target>Password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\logon.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -154,7 +154,7 @@
       </trans-unit>
       <trans-unit id="9676c4c7f980dd3625eb545d368d639b7c184305" datatype="html">
         <source>Sign in</source>
-	<target>Sign in</target>
+        <target>Sign in</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\logon.component.ts</context>
           <context context-type="linenumber">22</context>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="26b31cd2be204b7ebaf30b7c4f7036093833c53a" datatype="html">
         <source>Create new account</source>
-	<target>Create new account</target>
+        <target>Create new account</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\logon.component.ts</context>
           <context context-type="linenumber">28</context>
@@ -174,7 +174,7 @@
       </trans-unit>
       <trans-unit id="eb7ff41fa4fd2e17b936e3d78e088ab571780271" datatype="html">
         <source>Forgot your password?</source>
-	<target>Forgot your password?</target>
+        <target>Forgot your password?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\logon.component.ts</context>
           <context context-type="linenumber">29</context>
@@ -184,7 +184,7 @@
       </trans-unit>
       <trans-unit id="a8132e134c090ef48fe2a82f302675026152b0c8" datatype="html">
         <source>My plandiscs</source>
-	<target>My plandiscs</target>
+        <target>My plandiscs</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\mainMenu\main-menu.component.ts</context>
           <context context-type="linenumber">5</context>
@@ -194,7 +194,7 @@
       </trans-unit>
       <trans-unit id="c31402da8e992cac28598ee6105af3e848db58a6" datatype="html">
         <source>Account</source>
-	<target>Account</target>
+        <target>Account</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\mainMenu\main-menu.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="85c1d1abba8530201bab939d572457e937eb4bda" datatype="html">
         <source>Sign out</source>
-	<target>Sign out</target>
+        <target>Sign out</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\mainMenu\main-menu.component.ts</context>
           <context context-type="linenumber">15</context>
@@ -213,8 +213,8 @@
         <note priority="1" from="meaning">Sign out menu item</note>
       </trans-unit>
       <trans-unit id="82afe4b4a924194029dc686841ce2c77e7236c23" datatype="html">
-        <source>Upgrade<x id="LINE_BREAK" ctype="lb"/>subscription</source>
-	<target>Upgrade<x id="LINE_BREAK" ctype="lb"/>subscription</target>
+        <source>Upgrade<x id="LINE_BREAK" ctype="lb" />subscription</source>
+        <target>Upgrade<x id="LINE_BREAK" ctype="lb" />subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\mainMenu\main-menu.component.ts</context>
           <context context-type="linenumber">20</context>
@@ -224,7 +224,7 @@
       </trans-unit>
       <trans-unit id="fa7a68a5d69985b9dccac096efa50f3269d677d9" datatype="html">
         <source>My plandiscs</source>
-	<target>My plandiscs</target>
+        <target>My plandiscs</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -233,8 +233,8 @@
         <note priority="1" from="meaning">Wheel list title</note>
       </trans-unit>
       <trans-unit id="b440f4074b63c35a4b3456e10b1930fc26f4a894" datatype="html">
-        <source>Your account has been blocked. To unblock pay for your subscription or downgrade to &apos;free&apos; subscription. To unblock temporarly contact us at info@plandisc.com.</source>
-	<target>Your account has been blocked. To unblock pay for your subscription or downgrade to &apos;free&apos; subscription. To unblock temporarly contact us at info@plandisc.com.</target>
+        <source>Your account has been blocked. To unblock pay for your subscription or downgrade to 'free' subscription. To unblock temporarly contact us at info@plandisc.com.</source>
+        <target>Your account has been blocked. To unblock pay for your subscription or downgrade to 'free' subscription. To unblock temporarly contact us at info@plandisc.com.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -244,7 +244,7 @@
       </trans-unit>
       <trans-unit id="b234b6abc85e208d6f1661c35759402117728259" datatype="html">
         <source>Plandisc</source>
-	<target>Plandisc</target>
+        <target>Plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -254,7 +254,7 @@
       </trans-unit>
       <trans-unit id="0bd881316e0ed1f1d2f2d21eedd54c735eac2bcf" datatype="html">
         <source>Template</source>
-	<target>Template</target>
+        <target>Template</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">32</context>
@@ -264,7 +264,7 @@
       </trans-unit>
       <trans-unit id="63f08061a38b2a1347865ef8a47a7ea5ecd2b026" datatype="html">
         <source>Owned by</source>
-	<target>Owned by</target>
+        <target>Owned by</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">38</context>
@@ -274,7 +274,7 @@
       </trans-unit>
       <trans-unit id="c0cc6a238c942effed3e75cabb187f8f6093385c" datatype="html">
         <source>Shared with</source>
-	<target>Shared with</target>
+        <target>Shared with</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">42</context>
@@ -284,7 +284,7 @@
       </trans-unit>
       <trans-unit id="43093ac1ae50cce90d0e1a6c151999ce6d2381b3" datatype="html">
         <source>Delete</source>
-	<target>Delete</target>
+        <target>Delete</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">50</context>
@@ -294,7 +294,7 @@
       </trans-unit>
       <trans-unit id="4782a875190d890b095105cc7e1df6b6c63e6926" datatype="html">
         <source>Copying is only available in PREMIUM version</source>
-	<target>Copying is only available in PREMIUM version</target>
+        <target>Copying is only available in PREMIUM version</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">53</context>
@@ -304,7 +304,7 @@
       </trans-unit>
       <trans-unit id="221d7e14698ca8824f12c1aa86731acf4fbef865" datatype="html">
         <source>Upgrade subscription</source>
-	<target>Upgrade subscription</target>
+        <target>Upgrade subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">55</context>
@@ -326,7 +326,7 @@
       </trans-unit>
       <trans-unit id="680f1c56d3641393d8668ea88d9bd124d12af349" datatype="html">
         <source>Copy</source>
-	<target>Copy</target>
+        <target>Copy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">57</context>
@@ -340,7 +340,7 @@
       </trans-unit>
       <trans-unit id="2db53d557ddc25435faf9b6f5c2e93159296697b" datatype="html">
         <source>Create plandisc</source>
-	<target>Create plandisc</target>
+        <target>Create plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">72</context>
@@ -350,7 +350,7 @@
       </trans-unit>
       <trans-unit id="3a1e880aa6ad367a5672d5f1d9bcdc7bd21976ba" datatype="html">
         <source>Your current subscription allows max 3 plandiscs.</source>
-	<target>Your current subscription allows max 3 plandiscs.</target>
+        <target>Your current subscription allows max 3 plandiscs.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">70</context>
@@ -360,7 +360,7 @@
       </trans-unit>
       <trans-unit id="7847ec6ad5616206454bde2fc439965fc2aa501d" datatype="html">
         <source>Create plandisc from template</source>
-	<target>Create plandisc from template</target>
+        <target>Create plandisc from template</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">79</context>
@@ -370,7 +370,7 @@
       </trans-unit>
       <trans-unit id="bccc8504ea0611131ae1dc09f9bf38e9434629bd" datatype="html">
         <source>Your current subscription allows max 3 plandiscs.</source>
-	<target>Your current subscription allows max 3 plandiscs.</target>
+        <target>Your current subscription allows max 3 plandiscs.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-list\wheel-list.component.ts</context>
           <context context-type="linenumber">87</context>
@@ -380,7 +380,7 @@
       </trans-unit>
       <trans-unit id="2c81b11c3dca5233e0fb4bdc61822ad914b17377" datatype="html">
         <source>[TEMPLATE]</source>
-	<target>[TEMPLATE]</target>
+        <target>[TEMPLATE]</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -390,7 +390,7 @@
       </trans-unit>
       <trans-unit id="e4d6f70275e3968ba21131c850191e794fce295b" datatype="html">
         <source>Full size</source>
-	<target>Full size</target>
+        <target>Full size</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -400,7 +400,7 @@
       </trans-unit>
       <trans-unit id="3234d0ac2c2c81a1e99978ed7f9d8ce09f8378ef" datatype="html">
         <source>TEMPLATE</source>
-	<target>TEMPLATE</target>
+        <target>TEMPLATE</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -410,7 +410,7 @@
       </trans-unit>
       <trans-unit id="0fcff9157ffe480c8e708c6e0fa21a2ebedc8d3e" datatype="html">
         <source>Create plandisc from this template</source>
-	<target>Create plandisc from this template</target>
+        <target>Create plandisc from this template</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show.component.ts</context>
           <context context-type="linenumber">28</context>
@@ -420,7 +420,7 @@
       </trans-unit>
       <trans-unit id="c2e9ee26f9efab62ca23083d287de82cdfb7e1a7" datatype="html">
         <source>Templates are only available in PREMIUM version.</source>
-	<target>Templates are only available in PREMIUM version.</target>
+        <target>Templates are only available in PREMIUM version.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show.component.ts</context>
           <context context-type="linenumber">24</context>
@@ -430,7 +430,7 @@
       </trans-unit>
       <trans-unit id="285c59ea9dd63efd5fa09d47b0a7debb566deae4" datatype="html">
         <source>Back to template list</source>
-	<target>Back to template list</target>
+        <target>Back to template list</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show.component.ts</context>
           <context context-type="linenumber">32</context>
@@ -440,7 +440,7 @@
       </trans-unit>
       <trans-unit id="992a430f3449343eb97be9cbb22e07e82bbcad52" datatype="html">
         <source>Title</source>
-	<target>Title</target>
+        <target>Title</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -450,7 +450,7 @@
       </trans-unit>
       <trans-unit id="4b93759bfd34e07650eca8062c18805869c7ba34" datatype="html">
         <source>First week</source>
-	<target>First week</target>
+        <target>First week</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">11</context>
@@ -460,7 +460,7 @@
       </trans-unit>
       <trans-unit id="c7e24123b77d9640a8984ec451ca1cd95a7a038c" datatype="html">
         <source>Length</source>
-	<target>Length</target>
+        <target>Length</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -470,7 +470,7 @@
       </trans-unit>
       <trans-unit id="39dfa33e26ead24e7ee500e1bd606d93f644f655" datatype="html">
         <source>Color</source>
-	<target>Color</target>
+        <target>Color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">21</context>
@@ -480,7 +480,7 @@
       </trans-unit>
       <trans-unit id="58f02c8ff72e83f29469803b1a6a819fce69f817" datatype="html">
         <source>In the PREMIUM version all colors are available</source>
-	<target>In the PREMIUM version all colors are available</target>
+        <target>In the PREMIUM version all colors are available</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">26</context>
@@ -490,7 +490,7 @@
       </trans-unit>
       <trans-unit id="6458fd505a22254c00e5b77917702e56cdef06b4" datatype="html">
         <source>Summary</source>
-	<target>Summary</target>
+        <target>Summary</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">34</context>
@@ -500,7 +500,7 @@
       </trans-unit>
       <trans-unit id="cdf4bd56fe652c0c93fa8ad9ade6cb7c35c62b5d" datatype="html">
         <source>Text</source>
-	<target>Text</target>
+        <target>Text</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">41</context>
@@ -510,7 +510,7 @@
       </trans-unit>
       <trans-unit id="0a8ed8c5c8e09be191bf6b7a935b8613c05daf07" datatype="html">
         <source>Attach files</source>
-	<target>Attach files</target>
+        <target>Attach files</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">49</context>
@@ -520,7 +520,7 @@
       </trans-unit>
       <trans-unit id="3d63ffd14f637c552d78ddce6248f56eb48bba0f" datatype="html">
         <source>Browse</source>
-	<target>Browse</target>
+        <target>Browse</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">61</context>
@@ -530,7 +530,7 @@
       </trans-unit>
       <trans-unit id="a94f3e2e8e4201cb11fd63c1018dec78c00c8658" datatype="html">
         <source>Attachments are only available in PREMIUM version</source>
-	<target>Attachments are only available in PREMIUM version</target>
+        <target>Attachments are only available in PREMIUM version</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">60</context>
@@ -540,7 +540,7 @@
       </trans-unit>
       <trans-unit id="cd4404a2988b2a5d03f08139c08bf1bd92736edc" datatype="html">
         <source>Due date</source>
-	<target>Due date</target>
+        <target>Due date</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">66</context>
@@ -550,7 +550,7 @@
       </trans-unit>
       <trans-unit id="7063d7bdb79628b27e685b568cc8737ce1fe795f" datatype="html">
         <source>Select date</source>
-	<target>Select date</target>
+        <target>Select date</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">69</context>
@@ -564,7 +564,7 @@
       </trans-unit>
       <trans-unit id="cbc3714b68274475075c30bb4ea177b3c7edacf9" datatype="html">
         <source>Responsible</source>
-	<target>Responsible</target>
+        <target>Responsible</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">74</context>
@@ -574,7 +574,7 @@
       </trans-unit>
       <trans-unit id="30054c89b9ec4c5a6720aa3bb7710aac0db2285c" datatype="html">
         <source>Enter email</source>
-	<target>Enter email</target>
+        <target>Enter email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">80</context>
@@ -583,7 +583,7 @@
       </trans-unit>
       <trans-unit id="f03d68a97e68378488307ba289cb6ba92e18be25" datatype="html">
         <source>The e-mail for the responsible person is not a valid e-mail address.</source>
-	<target>The e-mail for the responsible person is not a valid e-mail address.</target>
+        <target>The e-mail for the responsible person is not a valid e-mail address.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">83</context>
@@ -593,7 +593,7 @@
       </trans-unit>
       <trans-unit id="e65eb9db982b3825ef1af4986000329f865f7e43" datatype="html">
         <source>If due date is set, a reminder will be sent to the e-mail one day before</source>
-	<target>If due date is set, a reminder will be sent to the e-mail one day before</target>
+        <target>If due date is set, a reminder will be sent to the e-mail one day before</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">87</context>
@@ -603,7 +603,7 @@
       </trans-unit>
       <trans-unit id="4bf9316e3730b74937c7576db7b58ad20c733f96" datatype="html">
         <source>Save</source>
-	<target>Save</target>
+        <target>Save</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">100</context>
@@ -613,7 +613,7 @@
       </trans-unit>
       <trans-unit id="6d1ed728db0db51888df2659fc09749879100278" datatype="html">
         <source>Cancel</source>
-	<target>Cancel</target>
+        <target>Cancel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">107</context>
@@ -623,7 +623,7 @@
       </trans-unit>
       <trans-unit id="3bd11e60cdebce68bb1b7e7bd3fa3c53c78b60db" datatype="html">
         <source>Delete</source>
-	<target>Delete</target>
+        <target>Delete</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">114</context>
@@ -633,7 +633,7 @@
       </trans-unit>
       <trans-unit id="bd7ff7d05eff040d04e63f94b1e88035e508348e" datatype="html">
         <source>Copy</source>
-	<target>Copy</target>
+        <target>Copy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">127</context>
@@ -643,7 +643,7 @@
       </trans-unit>
       <trans-unit id="bbd3450afcb139e665c587bad7ad9b2027be5910" datatype="html">
         <source>Copying is only available in PREMIUM version</source>
-	<target>Copying is only available in PREMIUM version</target>
+        <target>Copying is only available in PREMIUM version</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">121</context>
@@ -653,7 +653,7 @@
       </trans-unit>
       <trans-unit id="9831de854af06bdbea04e9b9855737ccc847d04a" datatype="html">
         <source>Delete</source>
-	<target>Delete</target>
+        <target>Delete</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">137</context>
@@ -663,7 +663,7 @@
       </trans-unit>
       <trans-unit id="29cd285806b32e7d8e757c5c552f01c3774318e7" datatype="html">
         <source>Do you want to delete this event?</source>
-	<target>Do you want to delete this event?</target>
+        <target>Do you want to delete this event?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\event-popup.component.ts</context>
           <context context-type="linenumber">138</context>
@@ -673,7 +673,7 @@
       </trans-unit>
       <trans-unit id="b93707f9c46a71f9c13fa3bbd1804e1ff99979b0" datatype="html">
         <source>Close</source>
-	<target>Close</target>
+        <target>Close</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\readonly-event-popup.component.ts</context>
           <context context-type="linenumber">19</context>
@@ -683,7 +683,7 @@
       </trans-unit>
       <trans-unit id="70fb07821f8eeabe8434e41db7764595ee19520a" datatype="html">
         <source>Show</source>
-	<target>Show</target>
+        <target>Show</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-disc-view.component.ts</context>
           <context context-type="linenumber">22</context>
@@ -693,7 +693,7 @@
       </trans-unit>
       <trans-unit id="15ededf1b2b2a40b34e0382badf75c8b6e4398c7" datatype="html">
         <source>Add event</source>
-	<target>Add event</target>
+        <target>Add event</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-disc-view.component.ts</context>
           <context context-type="linenumber">23</context>
@@ -703,7 +703,7 @@
       </trans-unit>
       <trans-unit id="0a4d6ee4b89b2f7993050ec08e05c806694af1d0" datatype="html">
         <source>Select print</source>
-	<target>Select print</target>
+        <target>Select print</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -713,7 +713,7 @@
       </trans-unit>
       <trans-unit id="7fd3278351a105d0325d054c1abc964f1293bee7" datatype="html">
         <source>Creating print</source>
-	<target>Creating print</target>
+        <target>Creating print</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">34</context>
@@ -723,7 +723,7 @@
       </trans-unit>
       <trans-unit id="c0e4204df797d7df987f7978b8018f9fb45fa1a7" datatype="html">
         <source>Downloading</source>
-	<target>Downloading</target>
+        <target>Downloading</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">35</context>
@@ -733,7 +733,7 @@
       </trans-unit>
       <trans-unit id="5b0523ef8165cb10a99e3fbcdcd1f1f2c78033c0" datatype="html">
         <source>A4 - Standard plandisc</source>
-	<target>A4 - Standard plandisc</target>
+        <target>A4 - Standard plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">43</context>
@@ -743,7 +743,7 @@
       </trans-unit>
       <trans-unit id="f7bcefbe9ec94c92ee405b66252b7689de1f094b" datatype="html">
         <source>A3 - Standard plandisc</source>
-	<target>A3 - Standard plandisc</target>
+        <target>A3 - Standard plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">44</context>
@@ -753,7 +753,7 @@
       </trans-unit>
       <trans-unit id="f15786376a321de49e7ae6c54a7a9468926dd059" datatype="html">
         <source>A4 - Plandisc with details</source>
-	<target>A4 - Plandisc with details</target>
+        <target>A4 - Plandisc with details</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">45</context>
@@ -763,7 +763,7 @@
       </trans-unit>
       <trans-unit id="35ae6d6e825c7965a493f36e9eb5670a61232082" datatype="html">
         <source>A3 - Plandisc with details</source>
-	<target>A3 - Plandisc with details</target>
+        <target>A3 - Plandisc with details</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">46</context>
@@ -773,7 +773,7 @@
       </trans-unit>
       <trans-unit id="f30af096c8bb66b97eeaf0a2669f1f86e6d1fad1" datatype="html">
         <source>A4 - List view</source>
-	<target>A4 - List view</target>
+        <target>A4 - List view</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">47</context>
@@ -783,7 +783,7 @@
       </trans-unit>
       <trans-unit id="648e443ca9e2c4767f35e80c47e1b5ed229bc171" datatype="html">
         <source>A4 - List view</source>
-	<target>A4 - List view</target>
+        <target>A4 - List view</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">48</context>
@@ -793,7 +793,7 @@
       </trans-unit>
       <trans-unit id="dda230090ad81529fab0eb73e744a7d078c77dfe" datatype="html">
         <source>A3 - List view</source>
-	<target>A3 - List view</target>
+        <target>A3 - List view</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">49</context>
@@ -803,7 +803,7 @@
       </trans-unit>
       <trans-unit id="6ec5e4455a14f852a94dfe831ef75a2fbf01c219" datatype="html">
         <source>A3 - List view</source>
-	<target>A3 - List view</target>
+        <target>A3 - List view</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">50</context>
@@ -813,7 +813,7 @@
       </trans-unit>
       <trans-unit id="c3253e0a7ff2e261f50ce0ecbabd4f1a3a231483" datatype="html">
         <source>PNG Image - Standard plandisc</source>
-	<target>PNG Image - Standard plandisc</target>
+        <target>PNG Image - Standard plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">51</context>
@@ -823,7 +823,7 @@
       </trans-unit>
       <trans-unit id="931d1382be7ed6aebd9cb3f41177c7cebd17eced" datatype="html">
         <source>PNG Image - Plandisc with details</source>
-	<target>PNG Image - Plandisc with details</target>
+        <target>PNG Image - Plandisc with details</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-print\wheel-print.component.ts</context>
           <context context-type="linenumber">52</context>
@@ -833,7 +833,7 @@
       </trans-unit>
       <trans-unit id="f5e15aaefe7cccec3ddae03b31a69a4231de2531" datatype="html">
         <source>Setup</source>
-	<target>Setup</target>
+        <target>Setup</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show-menu.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -843,7 +843,7 @@
       </trans-unit>
       <trans-unit id="449558584fa6fd7f3ca1d5f4963b6cdb40920072" datatype="html">
         <source>Show plandisc</source>
-	<target>Show plandisc</target>
+        <target>Show plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show-menu.component.ts</context>
           <context context-type="linenumber">8</context>
@@ -853,7 +853,7 @@
       </trans-unit>
       <trans-unit id="3f2f9a8a1f8c00d538511d4d74d3ece8f525f654" datatype="html">
         <source>List view</source>
-	<target>List view</target>
+        <target>List view</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show-menu.component.ts</context>
           <context context-type="linenumber">17</context>
@@ -863,7 +863,7 @@
       </trans-unit>
       <trans-unit id="5c211f688858bea91acb4066e15304379715de24" datatype="html">
         <source>List view is only available in PREMIUM version</source>
-	<target>List view is only available in PREMIUM version</target>
+        <target>List view is only available in PREMIUM version</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show-menu.component.ts</context>
           <context context-type="linenumber">15</context>
@@ -873,7 +873,7 @@
       </trans-unit>
       <trans-unit id="d0549aa8c6414a5e4f5410f8ae6896337764ecf9" datatype="html">
         <source>Print</source>
-	<target>Print</target>
+        <target>Print</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show-menu.component.ts</context>
           <context context-type="linenumber">27</context>
@@ -883,7 +883,7 @@
       </trans-unit>
       <trans-unit id="369e0a71315b51ba769b9882feefe21354b5c524" datatype="html">
         <source>Print is only available in PREMIUM version</source>
-	<target>Print is only available in PREMIUM version</target>
+        <target>Print is only available in PREMIUM version</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show-menu.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -893,7 +893,7 @@
       </trans-unit>
       <trans-unit id="e1021b206be3be056b0bac2f24b3561280484e47" datatype="html">
         <source>Show</source>
-	<target>Show</target>
+        <target>Show</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show-menu.component.ts</context>
           <context context-type="linenumber">33</context>
@@ -903,7 +903,7 @@
       </trans-unit>
       <trans-unit id="df8fc80a4e42258b2916cb390583cc8e10089115" datatype="html">
         <source>Export to Excel</source>
-	<target>Export to Excel</target>
+        <target>Export to Excel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-show\wheel-show-menu.component.ts</context>
           <context context-type="linenumber">38</context>
@@ -913,7 +913,7 @@
       </trans-unit>
       <trans-unit id="e24fe2945d1c7147cc7245ee8a9021223cf3eaae" datatype="html">
         <source>Setup</source>
-	<target>Setup</target>
+        <target>Setup</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -923,7 +923,7 @@
       </trans-unit>
       <trans-unit id="b8c09f876c3b0d3b674ae2f625aa7e19b34f700b" datatype="html">
         <source>Plandisc setup</source>
-	<target>Plandisc setup</target>
+        <target>Plandisc setup</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -933,7 +933,7 @@
       </trans-unit>
       <trans-unit id="9f9ff1d59dbc364ce612ff260ef72f07c0f0f4ca" datatype="html">
         <source>Name and Rings</source>
-	<target>Name and Rings</target>
+        <target>Name and Rings</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -943,7 +943,7 @@
       </trans-unit>
       <trans-unit id="c60841d5ef1ea4b431b8566580f54a65045eeaf9" datatype="html">
         <source>Sharing</source>
-	<target>Sharing</target>
+        <target>Sharing</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -953,7 +953,7 @@
       </trans-unit>
       <trans-unit id="315e5fb79f98c4f1e53af4e8abccc6536115587d" datatype="html">
         <source>Template</source>
-	<target>Template</target>
+        <target>Template</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -963,7 +963,7 @@
       </trans-unit>
       <trans-unit id="1cc3a52f23c8187cd49a60dad3f56b310ff750f7" datatype="html">
         <source>Save</source>
-	<target>Save</target>
+        <target>Save</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">28</context>
@@ -973,7 +973,7 @@
       </trans-unit>
       <trans-unit id="cdc12200d2c47fcbc09abcc631972bcefa938ef8" datatype="html">
         <source>Cancel</source>
-	<target>Cancel</target>
+        <target>Cancel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">30</context>
@@ -983,7 +983,7 @@
       </trans-unit>
       <trans-unit id="2ace7b2219e0b9ea1a06b5c38a32ad4f6afb46eb" datatype="html">
         <source>Delete plandisc</source>
-	<target>Delete plandisc</target>
+        <target>Delete plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">33</context>
@@ -993,7 +993,7 @@
       </trans-unit>
       <trans-unit id="05a7f9f9b2e236922be241e9f2df23c69691d67e" datatype="html">
         <source>There is a newer version of the plandisc, so please refresh the page before editing</source>
-	<target>There is a newer version of the plandisc, so please refresh the page before editing</target>
+        <target>There is a newer version of the plandisc, so please refresh the page before editing</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">40</context>
@@ -1003,7 +1003,7 @@
       </trans-unit>
       <trans-unit id="5dbcef008493273cc17aec21ae2e82195eb3002e" datatype="html">
         <source>Something went wrong. Please try again later.</source>
-	<target>Something went wrong. Please try again later.</target>
+        <target>Something went wrong. Please try again later.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">41</context>
@@ -1013,7 +1013,7 @@
       </trans-unit>
       <trans-unit id="7aab866facd03d097bf298861489a34aef85bb72" datatype="html">
         <source>Delete</source>
-	<target>Delete</target>
+        <target>Delete</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit.component.ts</context>
           <context context-type="linenumber">44</context>
@@ -1023,7 +1023,7 @@
       </trans-unit>
       <trans-unit id="74b267dbb9d65f9bd52acb177168fedd684c1cc1" datatype="html">
         <source>Name</source>
-	<target>Name</target>
+        <target>Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">4</context>
@@ -1033,7 +1033,7 @@
       </trans-unit>
       <trans-unit id="d3bc346015dbb6c3a440ae77cab25b8643e7b0d0" datatype="html">
         <source>Rings</source>
-	<target>Rings</target>
+        <target>Rings</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">11</context>
@@ -1043,7 +1043,7 @@
       </trans-unit>
       <trans-unit id="f96cf87222ce7215ffcf116cca22b9f0e8da4f6e" datatype="html">
         <source>No rings yet</source>
-	<target>No rings yet</target>
+        <target>No rings yet</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -1053,7 +1053,7 @@
       </trans-unit>
       <trans-unit id="64ed0f610929607fbc346517e041d53cb3a10e10" datatype="html">
         <source>All activity rings must have the same height</source>
-	<target>All activity rings must have the same height</target>
+        <target>All activity rings must have the same height</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">26</context>
@@ -1063,7 +1063,7 @@
       </trans-unit>
       <trans-unit id="6f84d3a5c3c6b73c514e9d60776ec09f6c73464f" datatype="html">
         <source>New activity ring</source>
-	<target>New activity ring</target>
+        <target>New activity ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">39</context>
@@ -1077,7 +1077,7 @@
       </trans-unit>
       <trans-unit id="73935d09bd3c69b4629be1e6512ae3705642029a" datatype="html">
         <source>Only PREMIUM users can have more than 3 activity rings</source>
-	<target>Only PREMIUM users can have more than 3 activity rings</target>
+        <target>Only PREMIUM users can have more than 3 activity rings</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">44</context>
@@ -1087,7 +1087,7 @@
       </trans-unit>
       <trans-unit id="20f6a02211edb438ea87cbb9ff77335dfbe68390" datatype="html">
         <source>New header</source>
-	<target>New header</target>
+        <target>New header</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">57</context>
@@ -1097,7 +1097,7 @@
       </trans-unit>
       <trans-unit id="96c8e42fa6b092cdca42df96c36cc504bb8f263d" datatype="html">
         <source>Insert shared ring</source>
-	<target>Insert shared ring</target>
+        <target>Insert shared ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">65</context>
@@ -1107,7 +1107,7 @@
       </trans-unit>
       <trans-unit id="7c21ebe0c81d36b5fb580093b5f742e104cfa83a" datatype="html">
         <source>Enter the code of a shared ring</source>
-	<target>Enter the code of a shared ring</target>
+        <target>Enter the code of a shared ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">84</context>
@@ -1117,7 +1117,7 @@
       </trans-unit>
       <trans-unit id="111e95e09c26362457fdfa153b3e04657ea64b88" datatype="html">
         <source>Or select a shared ring from the list</source>
-	<target>Or select a shared ring from the list</target>
+        <target>Or select a shared ring from the list</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">91</context>
@@ -1127,7 +1127,7 @@
       </trans-unit>
       <trans-unit id="01ba5e0cea01de53a9830d1f78922a2591e90577" datatype="html">
         <source>No rings are shared with you</source>
-	<target>No rings are shared with you</target>
+        <target>No rings are shared with you</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">94</context>
@@ -1137,7 +1137,7 @@
       </trans-unit>
       <trans-unit id="7f9bebcdf9e86fa1ca701eb9252fe19a7137795b" datatype="html">
         <source>Ring without name</source>
-	<target>Ring without name</target>
+        <target>Ring without name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">99</context>
@@ -1151,7 +1151,7 @@
       </trans-unit>
       <trans-unit id="dffd5d7feda4a611652f2f7c846596a90c089816" datatype="html">
         <source>Plandisc without name</source>
-	<target>Plandisc without name</target>
+        <target>Plandisc without name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">103</context>
@@ -1165,7 +1165,7 @@
       </trans-unit>
       <trans-unit id="624836c3a57292c6932a5bbc267f88118e33ea6c" datatype="html">
         <source>owned by</source>
-	<target>owned by</target>
+        <target>owned by</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">104</context>
@@ -1175,7 +1175,7 @@
       </trans-unit>
       <trans-unit id="f58e1f7200f9f5c339b794f7c280c68155ddbd58" datatype="html">
         <source>Unknown</source>
-	<target>Unknown</target>
+        <target>Unknown</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">106</context>
@@ -1185,7 +1185,7 @@
       </trans-unit>
       <trans-unit id="fb43458d3bd0ca972fb301dce58136b85c27bd61" datatype="html">
         <source>Select ring</source>
-	<target>Select ring</target>
+        <target>Select ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">79</context>
@@ -1195,7 +1195,7 @@
       </trans-unit>
       <trans-unit id="4282e5e54e3eed78acf74e12afa1810b1431f6a9" datatype="html">
         <source>New activity ring</source>
-	<target>New activity ring</target>
+        <target>New activity ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-name-and-rings.component.ts</context>
           <context context-type="linenumber">128</context>
@@ -1205,7 +1205,7 @@
       </trans-unit>
       <trans-unit id="1bda3942f04da58d652ec05f83933bb8b977b88a" datatype="html">
         <source>Activity ring</source>
-	<target>Activity ring</target>
+        <target>Activity ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -1215,7 +1215,7 @@
       </trans-unit>
       <trans-unit id="c15e4315a15cda124f3feb2fe42370ff75b3794c" datatype="html">
         <source>Header</source>
-	<target>Header</target>
+        <target>Header</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">8</context>
@@ -1225,7 +1225,7 @@
       </trans-unit>
       <trans-unit id="555d793be7393d98094f7c286f4b203c8e450502" datatype="html">
         <source>Shared ring</source>
-	<target>Shared ring</target>
+        <target>Shared ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -1235,7 +1235,7 @@
       </trans-unit>
       <trans-unit id="e7be03d04f58ada5bee5179e5a9c97f7723a5f93" datatype="html">
         <source>Not shared anymore</source>
-	<target>Not shared anymore</target>
+        <target>Not shared anymore</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">11</context>
@@ -1245,7 +1245,7 @@
       </trans-unit>
       <trans-unit id="d06a5294035e5cb26f3e8d1921971b1409c1ca64" datatype="html">
         <source>Inactive by owner</source>
-	<target>Inactive by owner</target>
+        <target>Inactive by owner</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -1255,7 +1255,7 @@
       </trans-unit>
       <trans-unit id="e4c0144a5fdcdcf49428b72642f327e13f542ae2" datatype="html">
         <source>Cells</source>
-	<target>Cells</target>
+        <target>Cells</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">27</context>
@@ -1265,7 +1265,7 @@
       </trans-unit>
       <trans-unit id="0ec7c41bf2a0e6d2b4a1460e3ce9f4514462f5c5" datatype="html">
         <source>Plandisc</source>
-	<target>Plandisc</target>
+        <target>Plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">32</context>
@@ -1275,7 +1275,7 @@
       </trans-unit>
       <trans-unit id="4f459e98b7bc64439f532731eb41db03bf632ada" datatype="html">
         <source>Ring</source>
-	<target>Ring</target>
+        <target>Ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">39</context>
@@ -1285,7 +1285,7 @@
       </trans-unit>
       <trans-unit id="f43527f6a664baf46bdbe47cc4e1d2a13d418a16" datatype="html">
         <source>Name</source>
-	<target>Name</target>
+        <target>Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">49</context>
@@ -1295,7 +1295,7 @@
       </trans-unit>
       <trans-unit id="2aa4a895e2fa1c479ee5e2c21c22cb9d17f11ac4" datatype="html">
         <source>Enter headers...</source>
-	<target>Enter headers...</target>
+        <target>Enter headers...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">57</context>
@@ -1305,7 +1305,7 @@
       </trans-unit>
       <trans-unit id="46415b02414c161576e1b7ebb39339cc9e40da61" datatype="html">
         <source>Color</source>
-	<target>Color</target>
+        <target>Color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">63</context>
@@ -1315,7 +1315,7 @@
       </trans-unit>
       <trans-unit id="acff4521251f375c41c2d52f32c0af9ff805d528" datatype="html">
         <source>In the PREMIUM version all colors are available</source>
-	<target>In the PREMIUM version all colors are available</target>
+        <target>In the PREMIUM version all colors are available</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">66</context>
@@ -1333,7 +1333,7 @@
       </trans-unit>
       <trans-unit id="7fbd0d33aee1225344d2c163ab953165ef7a8a13" datatype="html">
         <source>Details</source>
-	<target>Details</target>
+        <target>Details</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">72</context>
@@ -1343,7 +1343,7 @@
       </trans-unit>
       <trans-unit id="0827cf9f866af0b4a2bed25edc587eb2105084db" datatype="html">
         <source>Start period</source>
-	<target>Start period</target>
+        <target>Start period</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">86</context>
@@ -1353,7 +1353,7 @@
       </trans-unit>
       <trans-unit id="d21a7713060ebe917bc8506d43c8e5098fb01a65" datatype="html">
         <source>Height</source>
-	<target>Height</target>
+        <target>Height</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">92</context>
@@ -1363,7 +1363,7 @@
       </trans-unit>
       <trans-unit id="3669b19648633317e043568a4f3e30725cc05f0c" datatype="html">
         <source>Text color</source>
-	<target>Text color</target>
+        <target>Text color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">102</context>
@@ -1373,7 +1373,7 @@
       </trans-unit>
       <trans-unit id="35d508cea565078af5f0d6d16d290697a5f49ee2" datatype="html">
         <source>Text size</source>
-	<target>Text size</target>
+        <target>Text size</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">114</context>
@@ -1383,7 +1383,7 @@
       </trans-unit>
       <trans-unit id="dedcde93512f8c8de0de4853442d9c7edbc3d358" datatype="html">
         <source>Text color</source>
-	<target>Text color</target>
+        <target>Text color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">121</context>
@@ -1393,7 +1393,7 @@
       </trans-unit>
       <trans-unit id="2b0c798b34aba2c6b3d040d7ecf517712c07b5d7" datatype="html">
         <source>Text size</source>
-	<target>Text size</target>
+        <target>Text size</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">133</context>
@@ -1403,7 +1403,7 @@
       </trans-unit>
       <trans-unit id="b36e1450940b7f6028d8587568c7d669b53f7a06" datatype="html">
         <source>Active</source>
-	<target>Active</target>
+        <target>Active</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">139</context>
@@ -1412,7 +1412,7 @@
       </trans-unit>
       <trans-unit id="6b27b1a3bc5b0cb3bf1ea8da6abbdd4a2b363b88" datatype="html">
         <source>Name</source>
-	<target>Name</target>
+        <target>Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">158</context>
@@ -1422,7 +1422,7 @@
       </trans-unit>
       <trans-unit id="949281f8e27cf6c096df0ebab7e4fc6b46defdea" datatype="html">
         <source>Share the ring with these users</source>
-	<target>Share the ring with these users</target>
+        <target>Share the ring with these users</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">170</context>
@@ -1432,7 +1432,7 @@
       </trans-unit>
       <trans-unit id="93c2797d980707e6324bd1f7cb2d25ee679f42fe" datatype="html">
         <source>Share the ring using a code</source>
-	<target>Share the ring using a code</target>
+        <target>Share the ring using a code</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">181</context>
@@ -1442,7 +1442,7 @@
       </trans-unit>
       <trans-unit id="5b4d7a3e0ac8ea6c315938359b0d3c79422ef8c6" datatype="html">
         <source>With this code other users can insert the ring in their own plandiscs.</source>
-	<target>With this code other users can insert the ring in their own plandiscs.</target>
+        <target>With this code other users can insert the ring in their own plandiscs.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">185</context>
@@ -1452,7 +1452,7 @@
       </trans-unit>
       <trans-unit id="d43792f43feaf844d5a3dc263a24d814ab7a3761" datatype="html">
         <source>Delete ring</source>
-	<target>Delete ring</target>
+        <target>Delete ring</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">195</context>
@@ -1462,7 +1462,7 @@
       </trans-unit>
       <trans-unit id="78eaf3fa09ddede39127f01b5224f01fa91aa45b" datatype="html">
         <source>Fill with numbers</source>
-	<target>Fill with numbers</target>
+        <target>Fill with numbers</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">206</context>
@@ -1472,7 +1472,7 @@
       </trans-unit>
       <trans-unit id="059977a26ff7df97d26bdbce780768598d43a89d" datatype="html">
         <source>Fill with month names</source>
-	<target>Fill with month names</target>
+        <target>Fill with month names</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">208</context>
@@ -1482,7 +1482,7 @@
       </trans-unit>
       <trans-unit id="71531e01821a68d0c4af1f2a02d667bb9ee18c52" datatype="html">
         <source>Clear all</source>
-	<target>Clear all</target>
+        <target>Clear all</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">210</context>
@@ -1492,7 +1492,7 @@
       </trans-unit>
       <trans-unit id="ffebe837f849c50667390d4a84351b240d20c5a1" datatype="html">
         <source>Enter headers...</source>
-	<target>Enter headers...</target>
+        <target>Enter headers...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-ring.component.ts</context>
           <context context-type="linenumber">200</context>
@@ -1502,7 +1502,7 @@
       </trans-unit>
       <trans-unit id="97aec39863551483576d4c73d6b64bfedc424f54" datatype="html">
         <source>Sharing</source>
-	<target>Sharing</target>
+        <target>Sharing</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">4</context>
@@ -1512,7 +1512,7 @@
       </trans-unit>
       <trans-unit id="405c79fcecf77a9759f5b81a9d3af2a1e0d0cb0b" datatype="html">
         <source>The plandisc is public</source>
-	<target>The plandisc is public</target>
+        <target>The plandisc is public</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -1521,8 +1521,8 @@
         <note priority="1" from="meaning">Wheel settings plandisc is public checkbox value</note>
       </trans-unit>
       <trans-unit id="010cd3aff7d5667577a43496845ddd09eb13a71c" datatype="html">
-        <source>Remember to click &quot;Save&quot; below</source>
-	<target>Remember to click &quot;Save&quot; below</target>
+        <source>Remember to click "Save" below</source>
+        <target>Remember to click "Save" below</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -1532,7 +1532,7 @@
       </trans-unit>
       <trans-unit id="06d7bc5a5714294d16d1b07552c7824308b5849e" datatype="html">
         <source>Url to public plandisc</source>
-	<target>Url to public plandisc</target>
+        <target>Url to public plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">19</context>
@@ -1542,7 +1542,7 @@
       </trans-unit>
       <trans-unit id="ce89a013ccd8b7e53e410496342de1dfa590cee0" datatype="html">
         <source>Insert image with link on your website</source>
-	<target>Insert image with link on your website</target>
+        <target>Insert image with link on your website</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">22</context>
@@ -1552,7 +1552,7 @@
       </trans-unit>
       <trans-unit id="7af172b2807ecd90b11a9b024b9c9fd3ad7ae02c" datatype="html">
         <source>Embed the plandisc - full size</source>
-	<target>Embed the plandisc - full size</target>
+        <target>Embed the plandisc - full size</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">27</context>
@@ -1561,8 +1561,8 @@
         <note priority="1" from="meaning">Wheel settings sharing embed full size label</note>
       </trans-unit>
       <trans-unit id="25ca0d15399ddb63eddda668daaad4b2135923fc" datatype="html">
-        <source>Can&apos;t you see the plandisc - click here</source>
-	<target>Can&apos;t you see the plandisc - click here</target>
+        <source>Can't you see the plandisc - click here</source>
+        <target>Can't you see the plandisc - click here</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">30</context>
@@ -1580,7 +1580,7 @@
       </trans-unit>
       <trans-unit id="e722c06d8b366f6cd7bd0d1029920a2289d74fc6" datatype="html">
         <source>Embed the plandisc - small size</source>
-	<target>Embed the plandisc - small size</target>
+        <target>Embed the plandisc - small size</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">32</context>
@@ -1590,7 +1590,7 @@
       </trans-unit>
       <trans-unit id="64a98adf8e52bc8594105a028af71c1709416bca" datatype="html">
         <source>Embed the plandisc - extra small size</source>
-	<target>Embed the plandisc - extra small size</target>
+        <target>Embed the plandisc - extra small size</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">37</context>
@@ -1600,7 +1600,7 @@
       </trans-unit>
       <trans-unit id="a4fcebd656c23b76fb388a773eae0c20c7892d49" datatype="html">
         <source>Share write access</source>
-	<target>Share write access</target>
+        <target>Share write access</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">49</context>
@@ -1610,7 +1610,7 @@
       </trans-unit>
       <trans-unit id="30a7fd20506102f4b3753226a1377411d37ee8e8" datatype="html">
         <source>Add other users that can edit this plandisc.</source>
-	<target>Add other users that can edit this plandisc.</target>
+        <target>Add other users that can edit this plandisc.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">54</context>
@@ -1619,8 +1619,8 @@
         <note priority="1" from="meaning">Wheel settings sharing write access explanation</note>
       </trans-unit>
       <trans-unit id="8fe393eb5e3c0b7ae6fbafcd352de4c77abd02de" datatype="html">
-        <source>Remember to click &quot;Save&quot;</source>
-	<target>Remember to click &quot;Save&quot;</target>
+        <source>Remember to click "Save"</source>
+        <target>Remember to click "Save"</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-sharing.component.ts</context>
           <context context-type="linenumber">56</context>
@@ -1630,7 +1630,7 @@
       </trans-unit>
       <trans-unit id="f85e530f3f22ce1152fdf3c8cbc103f7087aff83" datatype="html">
         <source>Template</source>
-	<target>Template</target>
+        <target>Template</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-template.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -1640,7 +1640,7 @@
       </trans-unit>
       <trans-unit id="3c73f215268eaf73f21cda7ce796544aa9350edb" datatype="html">
         <source>This plandisc is a template</source>
-	<target>This plandisc is a template</target>
+        <target>This plandisc is a template</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-template.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -1650,7 +1650,7 @@
       </trans-unit>
       <trans-unit id="b8188e35996d8c8d9648e3e76548fb92fb1fe8dc" datatype="html">
         <source>Category</source>
-	<target>Category</target>
+        <target>Category</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-template.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -1660,7 +1660,7 @@
       </trans-unit>
       <trans-unit id="f6cd97143b01a645184f1f51ccb1fb4ae96725cd" datatype="html">
         <source>Language</source>
-	<target>Language</target>
+        <target>Language</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\wheel-edit-template.component.ts</context>
           <context context-type="linenumber">18</context>
@@ -1670,7 +1670,7 @@
       </trans-unit>
       <trans-unit id="207f3595c62f83877ff5169709790606608040b2" datatype="html">
         <source>Templates</source>
-	<target>Templates</target>
+        <target>Templates</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-templates\wheel-template-list.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -1680,7 +1680,7 @@
       </trans-unit>
       <trans-unit id="ebecb3487fa17f93bb1109ac541ec232b3439b75" datatype="html">
         <source>Select template</source>
-	<target>Select template</target>
+        <target>Select template</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-templates\wheel-template-list.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -1690,7 +1690,7 @@
       </trans-unit>
       <trans-unit id="35bb654c0765e555189a3287964fba46c25ddd63" datatype="html">
         <source>Back to my plandiscs</source>
-	<target>Back to my plandiscs</target>
+        <target>Back to my plandiscs</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-templates\wheel-template-list.component.ts</context>
           <context context-type="linenumber">17</context>
@@ -1700,7 +1700,7 @@
       </trans-unit>
       <trans-unit id="1478912cec63cb9e6dd67ff5ad3ef0439e1af8c1" datatype="html">
         <source>Template</source>
-	<target>Template</target>
+        <target>Template</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-templates\wheel-template-list-tab.component.ts</context>
           <context context-type="linenumber">4</context>
@@ -1710,7 +1710,7 @@
       </trans-unit>
       <trans-unit id="0048c1fa7965fd7eae485e1ec8f17b2ad3a2c562" datatype="html">
         <source>write email and press enter</source>
-	<target>write email and press enter</target>
+        <target>write email and press enter</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -1720,7 +1720,7 @@
       </trans-unit>
       <trans-unit id="977b5d81b695ee56470b3b41a13a93f596494b61" datatype="html">
         <source>The entered email is not a plandisc user</source>
-	<target>The entered email is not a plandisc user</target>
+        <target>The entered email is not a plandisc user</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">8</context>
@@ -1730,7 +1730,7 @@
       </trans-unit>
       <trans-unit id="1bffec6bf25e226f5e165b4dda87dd3085c75abf" datatype="html">
         <source>Send invitation</source>
-	<target>Send invitation</target>
+        <target>Send invitation</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">17</context>
@@ -1740,7 +1740,7 @@
       </trans-unit>
       <trans-unit id="9b3fbff225377a3580aba71e281770dedd9ae279" datatype="html">
         <source>The entered user has only a FREE subscription and can not be editor</source>
-	<target>The entered user has only a FREE subscription and can not be editor</target>
+        <target>The entered user has only a FREE subscription and can not be editor</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -1750,7 +1750,7 @@
       </trans-unit>
       <trans-unit id="9a4eb3f37ab2ec432b963c3a2f211e9638263adc" datatype="html">
         <source>Receiver email</source>
-	<target>Receiver email</target>
+        <target>Receiver email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">30</context>
@@ -1760,7 +1760,7 @@
       </trans-unit>
       <trans-unit id="446bf34bef064e824a63c47d08c69cff8e504f7d" datatype="html">
         <source>Receiver name</source>
-	<target>Receiver name</target>
+        <target>Receiver name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">32</context>
@@ -1770,7 +1770,7 @@
       </trans-unit>
       <trans-unit id="8f976bbd1bcb5bb87df31519a4409b3d0d108930" datatype="html">
         <source>Message</source>
-	<target>Message</target>
+        <target>Message</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">34</context>
@@ -1785,7 +1785,7 @@ Check out Plandisc.com, it is awesome!
 
 Best regards
 </source>
-	<target>Hi
+        <target>Hi
 
 Check out Plandisc.com, it is awesome!
 
@@ -1799,7 +1799,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="a6a95ec4308da71680a738cb0a4ff3af1f32c9cf" datatype="html">
         <source>Send</source>
-	<target>Send</target>
+        <target>Send</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">48</context>
@@ -1809,7 +1809,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ef86e5f1f4e1c4b92ffe5ff6588170a87b055b29" datatype="html">
         <source>Sorry, the invitation could not be send, please try again later.</source>
-	<target>Sorry, the invitation could not be send, please try again later.</target>
+        <target>Sorry, the invitation could not be send, please try again later.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\wheel-edit\editors-input.component.ts</context>
           <context context-type="linenumber">58</context>
@@ -1819,7 +1819,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="58e0426eb593804a9bf70b7be94b09c798196061" datatype="html">
         <source>Choose...</source>
-	<target>Choose...</target>
+        <target>Choose...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -1829,7 +1829,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="7558bcf3ae9547fe55d0b0462e714e4cebed8173" datatype="html">
         <source>Primary school</source>
-	<target>Primary school</target>
+        <target>Primary school</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">5</context>
@@ -1839,7 +1839,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="6cfc418ce4b043a64def30f888b1dbb507ea094c" datatype="html">
         <source>High school</source>
-	<target>High school</target>
+        <target>High school</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -1849,7 +1849,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="c5eb4ae5324a65c4d98a9fd1faad309cf47565d2" datatype="html">
         <source>Higher education</source>
-	<target>Higher education</target>
+        <target>Higher education</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -1859,7 +1859,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="a1b4d15b7fdec9d6cd9700b702da3757037967fe" datatype="html">
         <source>Education</source>
-	<target>Education</target>
+        <target>Education</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">4</context>
@@ -1869,7 +1869,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1842ff6f930c8131e21dcb2cec7b441fbffb19ab" datatype="html">
         <source>Sport</source>
-	<target>Sport</target>
+        <target>Sport</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -1879,7 +1879,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ff37dfdb1b7dd90e59af083033f38ed4a0522249" datatype="html">
         <source>Other</source>
-	<target>Other</target>
+        <target>Other</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">11</context>
@@ -1893,7 +1893,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="3b76f349a58e66caf52a4fafc26b6efbde136754" datatype="html">
         <source>Club</source>
-	<target>Club</target>
+        <target>Club</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -1903,7 +1903,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="e375a910faa402ec75fa6b6c1ed2971e35cdbb50" datatype="html">
         <source>Administration</source>
-	<target>Administration</target>
+        <target>Administration</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">14</context>
@@ -1913,7 +1913,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="4bb4923a189fcd19c43be38524f95309ad0c98c0" datatype="html">
         <source>Board</source>
-	<target>Board</target>
+        <target>Board</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">15</context>
@@ -1923,7 +1923,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="cc8d5adf077627a54f6f88b78cbddc3832561d07" datatype="html">
         <source>Human resource</source>
-	<target>Human resource</target>
+        <target>Human resource</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -1933,7 +1933,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="b8d76548d5485ebb0570029588b8c18f5585b130" datatype="html">
         <source>Marketing</source>
-	<target>Marketing</target>
+        <target>Marketing</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">17</context>
@@ -1943,7 +1943,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="747ad1b1c675ff2a83eb3058d3852e1a80b1edca" datatype="html">
         <source>Project management</source>
-	<target>Project management</target>
+        <target>Project management</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">18</context>
@@ -1953,7 +1953,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="a304e848e474a70c039ef493e8266470e4959269" datatype="html">
         <source>IT</source>
-	<target>IT</target>
+        <target>IT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">19</context>
@@ -1963,7 +1963,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1b5d75649523d1cc4598b1ebc002521b15d70a1e" datatype="html">
         <source>Private company</source>
-	<target>Private company</target>
+        <target>Private company</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -1973,7 +1973,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="8bb07c5723b9ca9683a2cebb2da4f6716d9155e2" datatype="html">
         <source>Daycare</source>
-	<target>Daycare</target>
+        <target>Daycare</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">22</context>
@@ -1983,7 +1983,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="0865f433ca85155116d394770614cb9753d2ff6e" datatype="html">
         <source>Elder care</source>
-	<target>Elder care</target>
+        <target>Elder care</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">23</context>
@@ -1993,7 +1993,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="b0d7ed2a40899b3113e9c73200e2f272f77708b9" datatype="html">
         <source>Care</source>
-	<target>Care</target>
+        <target>Care</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">21</context>
@@ -2003,7 +2003,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1cca739378b3ace0bb89c484468206e5419dbbc8" datatype="html">
         <source>Muncipality</source>
-	<target>Muncipality</target>
+        <target>Muncipality</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">26</context>
@@ -2013,7 +2013,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="35cd1f40dd92d1d16f0ccfd83b11d01d8c39fbe5" datatype="html">
         <source>County</source>
-	<target>County</target>
+        <target>County</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">27</context>
@@ -2023,7 +2023,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="5a4f6c8cfc9b0338209370c1f5ac7e4b26c6fa59" datatype="html">
         <source>Hospital</source>
-	<target>Hospital</target>
+        <target>Hospital</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">28</context>
@@ -2033,7 +2033,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="8ff93f2f0daec63f86a3b52aca3b74642bfce603" datatype="html">
         <source>Supply</source>
-	<target>Supply</target>
+        <target>Supply</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">29</context>
@@ -2043,7 +2043,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="029ef73e703a5729c7ef7cdce63d88ee9f893463" datatype="html">
         <source>Public</source>
-	<target>Public</target>
+        <target>Public</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\industry-selector.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -2053,7 +2053,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="574335f0ddb5786870f8cbf15efd723c6a2e2d7c" datatype="html">
         <source>Danish</source>
-	<target>Danish</target>
+        <target>Danish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\language-selector.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -2063,7 +2063,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="60c4e11449982d1186d73ab79d14d9adf6efe4fa" datatype="html">
         <source>English</source>
-	<target>English</target>
+        <target>English</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\language-selector.component.ts</context>
           <context context-type="linenumber">4</context>
@@ -2073,7 +2073,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="7f0eb513de672ed53b71a2b6a3298db05d98ac8a" datatype="html">
         <source>Finish</source>
-	<target>Finish</target>
+        <target>Finish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\language-selector.component.ts</context>
           <context context-type="linenumber">5</context>
@@ -2083,7 +2083,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="c0ddb7707067394bb9635d236a6d6f0dbb777349" datatype="html">
         <source>French</source>
-	<target>French</target>
+        <target>French</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\language-selector.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -2093,7 +2093,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="51a86cad97e6b95886405bd860b425d2d3e4aa22" datatype="html">
         <source>Norweigan</source>
-	<target>Norweigan</target>
+        <target>Norweigan</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\language-selector.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -2103,7 +2103,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="6c05951b62249de46f388772f6d2bf01949ef577" datatype="html">
         <source>Swedish</source>
-	<target>Swedish</target>
+        <target>Swedish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\language-selector.component.ts</context>
           <context context-type="linenumber">8</context>
@@ -2113,7 +2113,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="3563a7c2a630f81e49550517719f0cece6a4c201" datatype="html">
         <source>German</source>
-	<target>German</target>
+        <target>German</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\language-selector.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -2123,7 +2123,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="258d03e8eff421c0f8cdeb0445edf960ce63ef3b" datatype="html">
         <source>Spanish</source>
-	<target>Spanish</target>
+        <target>Spanish</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\language-selector.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -2133,7 +2133,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="28440e91e6765e7d790e758ec166edba1a7e5694" datatype="html">
         <source>Edit account</source>
-	<target>Edit account</target>
+        <target>Edit account</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -2143,7 +2143,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="62cfdc22905fb8286a39bf075098c4e53a132518" datatype="html">
         <source>Edit account</source>
-	<target>Edit account</target>
+        <target>Edit account</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -2153,7 +2153,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="a25ec50f111ad7c8dcd194d7ea52ac997b1323ef" datatype="html">
         <source>E-mail</source>
-	<target>E-mail</target>
+        <target>E-mail</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -2163,7 +2163,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="29f11245bec9a72d7492ffc73598665f5a24da7e" datatype="html">
         <source>Change password</source>
-	<target>Change password</target>
+        <target>Change password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">15</context>
@@ -2173,7 +2173,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="91a08b4749da2a5f2365edc36ddc164f49d787fc" datatype="html">
         <source>Name</source>
-	<target>Name</target>
+        <target>Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">19</context>
@@ -2183,7 +2183,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="9ea60293edc8cbce13b276e0b8d7897491dac9f9" datatype="html">
         <source>Language</source>
-	<target>Language</target>
+        <target>Language</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">28</context>
@@ -2193,7 +2193,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="45d99fdba21474da403dfe05d12726b87bda46c4" datatype="html">
         <source>Subscription</source>
-	<target>Subscription</target>
+        <target>Subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">35</context>
@@ -2203,7 +2203,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="daef967f18d4299555cf76951cff347b20ee1fa3" datatype="html">
         <source>Expires</source>
-	<target>Expires</target>
+        <target>Expires</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">40</context>
@@ -2213,7 +2213,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="029086b31633eda6f17b50238ef4d8c316c214d6" datatype="html">
         <source>Edit subscription</source>
-	<target>Edit subscription</target>
+        <target>Edit subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">43</context>
@@ -2223,7 +2223,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="bc4c0f3f79833fbb778019346d0e4e250be13a47" datatype="html">
         <source>Stop subscription</source>
-	<target>Stop subscription</target>
+        <target>Stop subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">45</context>
@@ -2233,7 +2233,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="25b984801a51a1efef657ff1df884ec6d0b3d4e0" datatype="html">
         <source>Logo</source>
-	<target>Logo</target>
+        <target>Logo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">50</context>
@@ -2243,7 +2243,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ec2333d59b5699b5629ec0b8ad27e3850271fdca" datatype="html">
         <source>Logo displayed on prints and embedded plandiscs</source>
-	<target>Logo displayed on prints and embedded plandiscs</target>
+        <target>Logo displayed on prints and embedded plandiscs</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">52</context>
@@ -2253,7 +2253,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ccde038e19a99f971643d3ee6a73f72a16f281c3" datatype="html">
         <source>Drag image here or browse...</source>
-	<target>Drag image here or browse...</target>
+        <target>Drag image here or browse...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">60</context>
@@ -2263,7 +2263,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="d38f82167cbae3b48369cc03fcfb0c9c7d9be4ad" datatype="html">
         <source>Change logo</source>
-	<target>Change logo</target>
+        <target>Change logo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">72</context>
@@ -2273,7 +2273,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="fb5a1fe004212c95ec3118492b51e999e5b6884e" datatype="html">
         <source>Only PREMIUM users can change logo</source>
-	<target>Only PREMIUM users can change logo</target>
+        <target>Only PREMIUM users can change logo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">71</context>
@@ -2283,7 +2283,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="611bdabb8e7f934b937394b9c383d76fd6fdc4bc" datatype="html">
         <source>Delete own logo</source>
-	<target>Delete own logo</target>
+        <target>Delete own logo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">74</context>
@@ -2293,7 +2293,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="4b38c7380b1cc2c651a523e7e4fe5ab68fe15eca" datatype="html">
         <source>Save</source>
-	<target>Save</target>
+        <target>Save</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">87</context>
@@ -2303,7 +2303,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="c29698c0ea802e5287ff50afbb5a03a37513bbe6" datatype="html">
         <source>Current password</source>
-	<target>Current password</target>
+        <target>Current password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">118</context>
@@ -2313,7 +2313,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="bbb5bdefe42323fcea70d26617309e33b72c2157" datatype="html">
         <source>New password</source>
-	<target>New password</target>
+        <target>New password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">128</context>
@@ -2323,7 +2323,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="b9f67ff0593a8c6dd87ab5d6f59997fa81c72b7c" datatype="html">
         <source>Repeat password</source>
-	<target>Repeat password</target>
+        <target>Repeat password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">137</context>
@@ -2333,7 +2333,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="19787c2f845e44e021758ecc798a681bb31a3106" datatype="html">
         <source>Change password</source>
-	<target>Change password</target>
+        <target>Change password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\edit-account.component.ts</context>
           <context context-type="linenumber">112</context>
@@ -2343,7 +2343,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="61c7207b338cecffefeec83de0f4bef7a26d47aa" datatype="html">
         <source>Create account</source>
-	<target>Create account</target>
+        <target>Create account</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -2353,7 +2353,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1983e9dbeaee22e0892d7d9f878b4208e26b8bb9" datatype="html">
         <source>Create account</source>
-	<target>Create account</target>
+        <target>Create account</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -2363,7 +2363,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="042b6e02740cce6ebc3b111fb6698ac633c28f4b" datatype="html">
         <source>Email</source>
-	<target>Email</target>
+        <target>Email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -2373,7 +2373,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="45e4c361d61f5c031a569fb2dcf8a8bcf95bc597" datatype="html">
         <source>Password</source>
-	<target>Password</target>
+        <target>Password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -2383,7 +2383,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="139a7727462c099b359dbfa40e567a0a0088437a" datatype="html">
         <source>Repeat password</source>
-	<target>Repeat password</target>
+        <target>Repeat password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">34</context>
@@ -2393,7 +2393,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="d54535b92b5c6b18411b6208cc3b5092bf2a83d5" datatype="html">
         <source>Name</source>
-	<target>Name</target>
+        <target>Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">43</context>
@@ -2403,7 +2403,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="90b3ee08e51d97844d735b7cbbcc4fc42093531d" datatype="html">
         <source>Medlemsnummer</source>
-	<target>Medlemsnummer</target>
+        <target>Medlemsnummer</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">52</context>
@@ -2412,7 +2412,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="db9bdaafc2c4f08c71773c27b132b10de4ee415e" datatype="html">
         <source>Industry</source>
-	<target>Industry</target>
+        <target>Industry</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">61</context>
@@ -2422,7 +2422,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="06ba35438d066a9ee0e68a14adf5dfa5fde99b27" datatype="html">
         <source>Language</source>
-	<target>Language</target>
+        <target>Language</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">68</context>
@@ -2431,8 +2431,8 @@ Best regards</target>
         <note priority="1" from="meaning">Create account language field</note>
       </trans-unit>
       <trans-unit id="b12225a4c208724e341a5b47c88392e0f90d32b9" datatype="html">
-        <source>I accept the <x id="START_LINK" ctype="x-a"/>terms<x id="CLOSE_LINK" ctype="x-a"/> for using Plandisc</source>
-	<target>I accept the <x id="START_LINK" ctype="x-a"/>terms<x id="CLOSE_LINK" ctype="x-a"/> for using Plandisc</target>
+        <source>I accept the <x id="START_LINK" ctype="x-a" />terms<x id="CLOSE_LINK" ctype="x-a" /> for using Plandisc</source>
+        <target>I accept the <x id="START_LINK" ctype="x-a" />terms<x id="CLOSE_LINK" ctype="x-a" /> for using Plandisc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">79</context>
@@ -2442,7 +2442,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="841b0c6194bb4172f98d76d426f036843109184c" datatype="html">
         <source>Create account</source>
-	<target>Create account</target>
+        <target>Create account</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\create-account.component.ts</context>
           <context context-type="linenumber">91</context>
@@ -2452,7 +2452,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="bf9307869c925ec5e512afb85c4676cbdeca77f9" datatype="html">
         <source>Account created</source>
-	<target>Account created</target>
+        <target>Account created</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-created.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -2462,7 +2462,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="fb611187b1d1f61ccddcff182266c5265b84a4c9" datatype="html">
         <source>Account created</source>
-	<target>Account created</target>
+        <target>Account created</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-created.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -2472,7 +2472,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ed289e6617bdf14a30a56207b9b20fc990edc8bf" datatype="html">
         <source>Welcome as a user on Plandisc.</source>
-	<target>Welcome as a user on Plandisc.</target>
+        <target>Welcome as a user on Plandisc.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-created.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -2482,7 +2482,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="7d5dfb0de4dccd8a0f922b553b48bd3ce57ab2cb" datatype="html">
         <source>We have send you an email with a link for activating your account.</source>
-	<target>We have send you an email with a link for activating your account.</target>
+        <target>We have send you an email with a link for activating your account.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-created.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -2492,7 +2492,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="f3b02fa428794e4d54fcac35ea3fece272ab5db6" datatype="html">
         <source>After activation you are ready to create your first plandisc.</source>
-	<target>After activation you are ready to create your first plandisc.</target>
+        <target>After activation you are ready to create your first plandisc.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-created.component.ts</context>
           <context context-type="linenumber">11</context>
@@ -2502,7 +2502,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="cb9cbdf0b9fad167c245b0301b9fcf0574b19cd9" datatype="html">
         <source>Reset password</source>
-	<target>Reset password</target>
+        <target>Reset password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\reset-password.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -2512,7 +2512,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="018f60574cba8da86468b8ff7a7565332f9a02ff" datatype="html">
         <source>Send new password to e-mail</source>
-	<target>Send new password to e-mail</target>
+        <target>Send new password to e-mail</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\reset-password.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -2522,7 +2522,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
         <source>Email</source>
-	<target>Email</target>
+        <target>Email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\reset-password.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -2531,7 +2531,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ec758156a9979780e2e62c6c97853f55b81d09a3" datatype="html">
         <source>A new password has been mailed to you email-address</source>
-	<target>A new password has been mailed to you email-address</target>
+        <target>A new password has been mailed to you email-address</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\reset-password.component.ts</context>
           <context context-type="linenumber">22</context>
@@ -2541,7 +2541,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="3dd0411fbeaf2eef0ffded8541e99f6a113c7354" datatype="html">
         <source>Account confirmed</source>
-	<target>Account confirmed</target>
+        <target>Account confirmed</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-confirmation.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -2551,7 +2551,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="9f17f312637839b069a37a095090ec2aa694e9b6" datatype="html">
         <source>Account confirmed</source>
-	<target>Account confirmed</target>
+        <target>Account confirmed</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-confirmation.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -2561,7 +2561,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="8243e8f48b87aa3fa9591b7c725719578f79dbf6" datatype="html">
         <source>Login</source>
-	<target>Login</target>
+        <target>Login</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-confirmation.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -2571,7 +2571,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="55ee8d41c203fc2571814014aca27e9d711017bb" datatype="html">
         <source>Back to frontpage</source>
-	<target>Back to frontpage</target>
+        <target>Back to frontpage</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\account\account-confirmation.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -2581,7 +2581,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1de2e28f8ff66264bf358e6c5167c4bd923e6e6d" datatype="html">
         <source>Subscription</source>
-	<target>Subscription</target>
+        <target>Subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -2591,7 +2591,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1de0308b5ca58e4df89ad1ae96cbd9ba48a40da8" datatype="html">
         <source>Expires</source>
-	<target>Expires</target>
+        <target>Expires</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -2601,7 +2601,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="56b5c04d98c1b9a086a551704db59330e92b1779" datatype="html">
         <source>Customer type</source>
-	<target>Customer type</target>
+        <target>Customer type</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -2611,7 +2611,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="970ccb6de28999396a7bc8ef7561231007606d4c" datatype="html">
         <source>Choose subscription</source>
-	<target>Choose subscription</target>
+        <target>Choose subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">25</context>
@@ -2621,7 +2621,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="470caf01aec3b6e5e6178ee19da706f931919fbd" datatype="html">
         <source>Payment</source>
-	<target>Payment</target>
+        <target>Payment</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">39</context>
@@ -2635,7 +2635,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1c353af5d2a65f8fada80a709f484a9ddf51d39d" datatype="html">
         <source>Payment method</source>
-	<target>Payment method</target>
+        <target>Payment method</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">43</context>
@@ -2645,7 +2645,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ffa9db0db0892df1a22489fe2907bf75ff49e459" datatype="html">
         <source>Invoice</source>
-	<target>Invoice</target>
+        <target>Invoice</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">45</context>
@@ -2655,7 +2655,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="7165606669195dad8972e625ce2402887d5802da" datatype="html">
         <source>Registered credit card</source>
-	<target>Registered credit card</target>
+        <target>Registered credit card</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">58</context>
@@ -2665,7 +2665,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="e5b2d4fa92ed74a3bc5dd5d23e917a5892339a37" datatype="html">
         <source>Delete</source>
-	<target>Delete</target>
+        <target>Delete</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">63</context>
@@ -2675,7 +2675,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="7aa9a057c722a9979824ba331d2162d94d0e2487" datatype="html">
         <source>Payment period</source>
-	<target>Payment period</target>
+        <target>Payment period</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">69</context>
@@ -2689,7 +2689,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="c8e5704adf5c0a56312922eccebfab2be91a2d8e" datatype="html">
         <source>for</source>
-	<target>for</target>
+        <target>for</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">72</context>
@@ -2703,7 +2703,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="00fdb1546c17b17eb3baeeef7c2790675e29785e" datatype="html">
         <source>incl. VAT</source>
-	<target>incl. VAT</target>
+        <target>incl. VAT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">73</context>
@@ -2717,7 +2717,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="416cb7626b55bbcc36049810fc4e59a5a1d6f30c" datatype="html">
         <source>Enterprise license</source>
-	<target>Enterprise license</target>
+        <target>Enterprise license</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">83</context>
@@ -2731,7 +2731,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="613fd6e86f53f9230fcabe4d184235340b6929b2" datatype="html">
         <source>Discount code</source>
-	<target>Discount code</target>
+        <target>Discount code</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">92</context>
@@ -2741,7 +2741,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="b1db17aa48049b4562444825149e1375950ac3be" datatype="html">
         <source>Invoice</source>
-	<target>Invoice</target>
+        <target>Invoice</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">99</context>
@@ -2750,8 +2750,8 @@ Best regards</target>
         <note priority="1" from="meaning">Edit subscription invoice heading</note>
       </trans-unit>
       <trans-unit id="0907e91ad62186349f010dc81b199152b51ee0c4" datatype="html">
-        <source>I accept the <x id="START_LINK" ctype="x-a"/>terms<x id="CLOSE_LINK" ctype="x-a"/></source>
-	<target>I accept the <x id="START_LINK" ctype="x-a"/>terms<x id="CLOSE_LINK" ctype="x-a"/></target>
+        <source>I accept the <x id="START_LINK" ctype="x-a" />terms<x id="CLOSE_LINK" ctype="x-a" /></source>
+        <target>I accept the <x id="START_LINK" ctype="x-a" />terms<x id="CLOSE_LINK" ctype="x-a" /></target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">109</context>
@@ -2761,7 +2761,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="044ba7c8f69884dac31136b6841c0df7d4038430" datatype="html">
         <source>The terms must be accepted</source>
-	<target>The terms must be accepted</target>
+        <target>The terms must be accepted</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">112</context>
@@ -2771,7 +2771,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="2079566b21b9c56aff082b0fad4132d8357949de" datatype="html">
         <source>OK</source>
-	<target>OK</target>
+        <target>OK</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">121</context>
@@ -2793,7 +2793,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="e5956830d4ef79ae7d86a3ba8b7af27e3847e6f9" datatype="html">
         <source>Cancel</source>
-	<target>Cancel</target>
+        <target>Cancel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">122</context>
@@ -2811,7 +2811,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="69bbb0da66d5818d116139d7bc34b52201ea1496" datatype="html">
         <source>The form was not filled out correctly</source>
-	<target>The form was not filled out correctly</target>
+        <target>The form was not filled out correctly</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">125</context>
@@ -2821,7 +2821,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="6083b19de432159ae434abac48b781a402731f7a" datatype="html">
         <source>Confirm changes to subscription</source>
-	<target>Confirm changes to subscription</target>
+        <target>Confirm changes to subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">135</context>
@@ -2831,7 +2831,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="9eed1624e4e3d6f3b4a40fb8b7078f50b34bdcae" datatype="html">
         <source>subscription</source>
-	<target>subscription</target>
+        <target>subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">139</context>
@@ -2841,7 +2841,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="d49d60c8a1c85ccea4655db7dbda64c534a2d141" datatype="html">
         <source>Payment</source>
-	<target>Payment</target>
+        <target>Payment</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">143</context>
@@ -2851,7 +2851,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="2479fae491e24b3230fdf5f7232052bad334de75" datatype="html">
         <source>Invoice</source>
-	<target>Invoice</target>
+        <target>Invoice</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">144</context>
@@ -2861,7 +2861,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="09b27a813e2b27a3cd9637caa4358d046c85f62a" datatype="html">
         <source>Visa</source>
-	<target>Visa</target>
+        <target>Visa</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">145</context>
@@ -2871,7 +2871,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="c3f9a38541b6ec52e395b6a6604beabc13851a7f" datatype="html">
         <source>MasterCard</source>
-	<target>MasterCard</target>
+        <target>MasterCard</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">146</context>
@@ -2881,7 +2881,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="0bedd4f717197ff5b9898e44886d4579284aa491" datatype="html">
         <source>Invoice address</source>
-	<target>Invoice address</target>
+        <target>Invoice address</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">150</context>
@@ -2895,7 +2895,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="77bad0b708cb73982a589941ee15bd41658e0932" datatype="html">
         <source>Phone</source>
-	<target>Phone</target>
+        <target>Phone</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">156</context>
@@ -2909,7 +2909,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="cebebb8d39687fc537d03509258c3c147b4c05d9" datatype="html">
         <source>Email</source>
-	<target>Email</target>
+        <target>Email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">157</context>
@@ -2923,7 +2923,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="3038a75f6b57d2dab063fbe54873aab4a0ea1cbf" datatype="html">
         <source>CVR</source>
-	<target>CVR</target>
+        <target>CVR</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">158</context>
@@ -2937,7 +2937,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1c37fcc284b9e7c1c8098a79ec3881cb77c4922a" datatype="html">
         <source>VAT</source>
-	<target>VAT</target>
+        <target>VAT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">159</context>
@@ -2951,7 +2951,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="644142907134157e914e8a8309ea0ebf50b6e484" datatype="html">
         <source>Invoice info</source>
-	<target>Invoice info</target>
+        <target>Invoice info</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">162</context>
@@ -2961,7 +2961,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="0d8b466d76f7521177e03b4582de7b5d0a387091" datatype="html">
         <source>EAN</source>
-	<target>EAN</target>
+        <target>EAN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">163</context>
@@ -2971,7 +2971,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="d380ed0c0a22827c9a460d96223fed368c5f3a2d" datatype="html">
         <source>Message</source>
-	<target>Message</target>
+        <target>Message</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">164</context>
@@ -2985,7 +2985,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="aa550c9497cd1b46f97fd2f3cb7109a98176c18e" datatype="html">
         <source>Payment</source>
-	<target>Payment</target>
+        <target>Payment</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">167</context>
@@ -2995,7 +2995,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="9a61e5db2eabae6816b7a22809b1ee4012d93a4b" datatype="html">
         <source>Discount</source>
-	<target>Discount</target>
+        <target>Discount</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">174</context>
@@ -3005,7 +3005,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="522957706606f1136cee6b29d4b348242e0fae2e" datatype="html">
         <source>Payment fee</source>
-	<target>Payment fee</target>
+        <target>Payment fee</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">178</context>
@@ -3015,7 +3015,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="947d01a2a57d94d401aff21f52a867dc60e06ba9" datatype="html">
         <source>Total</source>
-	<target>Total</target>
+        <target>Total</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">186</context>
@@ -3025,7 +3025,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="99f050f6efe0b867c578ca1adde15d6d5c38c902" datatype="html">
         <source>You have choosen to pay with credit card. Continue to fill out credit card details.</source>
-	<target>You have choosen to pay with credit card. Continue to fill out credit card details.</target>
+        <target>You have choosen to pay with credit card. Continue to fill out credit card details.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\edit-subscription.component.ts</context>
           <context context-type="linenumber">217</context>
@@ -3035,7 +3035,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="149b6187f284a300fff4f4297db78f2cf549be0a" datatype="html">
         <source>Your credit card was registered</source>
-	<target>Your credit card was registered</target>
+        <target>Your credit card was registered</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\credit-card-return.component.ts</context>
           <context context-type="linenumber">2</context>
@@ -3045,7 +3045,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="80422dccb735cbcbe73b514ffbdb8f550dbb7567" datatype="html">
         <source>You will receive an order confirmation by email, and now have access to all the Plandisc features that your plan gives you access to.</source>
-	<target>You will receive an order confirmation by email, and now have access to all the Plandisc features that your plan gives you access to.</target>
+        <target>You will receive an order confirmation by email, and now have access to all the Plandisc features that your plan gives you access to.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\credit-card-return.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -3054,8 +3054,8 @@ Best regards</target>
         <note priority="1" from="meaning">Credit card return success text</note>
       </trans-unit>
       <trans-unit id="659af9b97d13ba407fbcef00fb4390c8ec6ac1d0" datatype="html">
-        <source>Your credit card wasn&apos;t registered</source>
-	<target>Your credit card wasn&apos;t registered</target>
+        <source>Your credit card wasn't registered</source>
+        <target>Your credit card wasn't registered</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\credit-card-return.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -3064,8 +3064,8 @@ Best regards</target>
         <note priority="1" from="meaning">Credit card return failure heading</note>
       </trans-unit>
       <trans-unit id="bbe16cc5debb67ebd34422aed61b46ae7a5d9166" datatype="html">
-        <source>To continue with your plan you must register your credit card <x id="START_LINK" ctype="x-a"/>here<x id="CLOSE_LINK" ctype="x-a"/>.</source>
-	<target>To continue with your plan you must register your credit card <x id="START_LINK" ctype="x-a"/>here<x id="CLOSE_LINK" ctype="x-a"/>.</target>
+        <source>To continue with your plan you must register your credit card <x id="START_LINK" ctype="x-a" />here<x id="CLOSE_LINK" ctype="x-a" />.</source>
+        <target>To continue with your plan you must register your credit card <x id="START_LINK" ctype="x-a" />here<x id="CLOSE_LINK" ctype="x-a" />.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\credit-card-return.component.ts</context>
           <context context-type="linenumber">7</context>
@@ -3075,7 +3075,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="e09974f985ae95bb631e137ac6af8cf5560d6cbf" datatype="html">
         <source>Name</source>
-	<target>Name</target>
+        <target>Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">4</context>
@@ -3085,7 +3085,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="bfdce9eb487b98605b21ed3174483a3b56230db5" datatype="html">
         <source>Att</source>
-	<target>Att</target>
+        <target>Att</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -3095,7 +3095,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="9c1aee99fc9f6d9a176f5f45db2c0984f8d145a2" datatype="html">
         <source>Address</source>
-	<target>Address</target>
+        <target>Address</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">22</context>
@@ -3105,7 +3105,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="5186fa33da48c837fcba22a0a45cd42ed422bcb6" datatype="html">
         <source>Zip code</source>
-	<target>Zip code</target>
+        <target>Zip code</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">31</context>
@@ -3115,7 +3115,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="960921067bb2dbc16f75ffff0a15f7637c820d9b" datatype="html">
         <source>City</source>
-	<target>City</target>
+        <target>City</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">40</context>
@@ -3125,7 +3125,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="7995b9052bb3f4e59b79dde5c3b98ea174e064f4" datatype="html">
         <source>State</source>
-	<target>State</target>
+        <target>State</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">49</context>
@@ -3135,7 +3135,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="2a5e4187c370e7eb1ddd017b3247718b7e84bc50" datatype="html">
         <source>Country</source>
-	<target>Country</target>
+        <target>Country</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">56</context>
@@ -3145,7 +3145,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="c4ab7137ab2dc89f599f9bee3905bd9a4d868c97" datatype="html">
         <source>Australia</source>
-	<target>Australia</target>
+        <target>Australia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">59</context>
@@ -3155,7 +3155,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="3ba27d35aec11bb3de7416451470ad82a4dee07f" datatype="html">
         <source>Austria</source>
-	<target>Austria</target>
+        <target>Austria</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">60</context>
@@ -3165,7 +3165,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="0ed3c20d46aae2e9dc9cabf1e6fcee5be054bab0" datatype="html">
         <source>Belgium</source>
-	<target>Belgium</target>
+        <target>Belgium</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">61</context>
@@ -3175,7 +3175,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="257e51cb58ba644504c223abbd283d01621ababe" datatype="html">
         <source>Bulgaria</source>
-	<target>Bulgaria</target>
+        <target>Bulgaria</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">62</context>
@@ -3185,7 +3185,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="7a5ee1dd44b17837e4a7eead2db1b379ba117c1c" datatype="html">
         <source>Canada</source>
-	<target>Canada</target>
+        <target>Canada</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">63</context>
@@ -3195,7 +3195,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="dc22667c7d2e95cc5d550d65bbd5d1e8a58d135f" datatype="html">
         <source>Croatia</source>
-	<target>Croatia</target>
+        <target>Croatia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">64</context>
@@ -3205,7 +3205,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="d66b266ff1336dcdd9327d3a70b0d4c5c593120d" datatype="html">
         <source>Cyprus</source>
-	<target>Cyprus</target>
+        <target>Cyprus</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">65</context>
@@ -3215,7 +3215,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="25b14fad479c62da478005224d5ff46a753144b3" datatype="html">
         <source>Czech Republic</source>
-	<target>Czech Republic</target>
+        <target>Czech Republic</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">66</context>
@@ -3225,7 +3225,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="14bf4bb9217d4b035d1a6dcde29ff76ef22b8a9e" datatype="html">
         <source>Denmark</source>
-	<target>Denmark</target>
+        <target>Denmark</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">67</context>
@@ -3235,7 +3235,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="385da8d099d1bd5112626fba7c26ca1f173509a9" datatype="html">
         <source>Estonia</source>
-	<target>Estonia</target>
+        <target>Estonia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">68</context>
@@ -3245,7 +3245,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="27cd54267efc2e10121baf50043a4ac0380c10b5" datatype="html">
         <source>Faroe Islands</source>
-	<target>Faroe Islands</target>
+        <target>Faroe Islands</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">69</context>
@@ -3255,7 +3255,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="cff6be035f3c19d28f78c4a5cb903956b43e6f6a" datatype="html">
         <source>Finland</source>
-	<target>Finland</target>
+        <target>Finland</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">70</context>
@@ -3265,7 +3265,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="646899512920b8fd57a70013c78b8a0f90cdb646" datatype="html">
         <source>France</source>
-	<target>France</target>
+        <target>France</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">71</context>
@@ -3275,7 +3275,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="a9a53c91ef24bcb7e2a27b0da41f84ea16ad599a" datatype="html">
         <source>Germany</source>
-	<target>Germany</target>
+        <target>Germany</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">72</context>
@@ -3285,7 +3285,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="0d4a8aebb0cfd168949c280942b494c3ff6f1035" datatype="html">
         <source>Greece</source>
-	<target>Greece</target>
+        <target>Greece</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">73</context>
@@ -3295,7 +3295,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="3bf3b034f9c91af3897222efc98c277c991cd2ac" datatype="html">
         <source>Greenland</source>
-	<target>Greenland</target>
+        <target>Greenland</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">74</context>
@@ -3305,7 +3305,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="c11636315824525b5f34cb9957b4d6dec81086db" datatype="html">
         <source>Hungary</source>
-	<target>Hungary</target>
+        <target>Hungary</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">75</context>
@@ -3315,7 +3315,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="0cecceae3b17520b1ddcd714c811886608585a54" datatype="html">
         <source>Ireland</source>
-	<target>Ireland</target>
+        <target>Ireland</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">76</context>
@@ -3325,7 +3325,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="a47d31105018d0eac4af1c80589ef59947b6461f" datatype="html">
         <source>Italy</source>
-	<target>Italy</target>
+        <target>Italy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">77</context>
@@ -3335,7 +3335,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="576c562662bc47234f7db13ea52806f50ad32286" datatype="html">
         <source>Latvia</source>
-	<target>Latvia</target>
+        <target>Latvia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">78</context>
@@ -3345,7 +3345,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="73af84e436442d1e8181a2885bdc33447d33c95d" datatype="html">
         <source>Lithuania</source>
-	<target>Lithuania</target>
+        <target>Lithuania</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">79</context>
@@ -3355,7 +3355,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="811ed0b04cd2e2e64160becee657c853cb30f71a" datatype="html">
         <source>Luxembourg</source>
-	<target>Luxembourg</target>
+        <target>Luxembourg</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">80</context>
@@ -3365,7 +3365,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="13c0288d30e4e58feca43043ced026135fe3135a" datatype="html">
         <source>Malta</source>
-	<target>Malta</target>
+        <target>Malta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">81</context>
@@ -3375,7 +3375,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="37ad61b20a7854640113fbef7bc6c742393eebbe" datatype="html">
         <source>Netherlands</source>
-	<target>Netherlands</target>
+        <target>Netherlands</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">82</context>
@@ -3385,7 +3385,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="2bd78f15d0c3d7661c090fe5dcbfa22312887b4a" datatype="html">
         <source>Norway</source>
-	<target>Norway</target>
+        <target>Norway</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">83</context>
@@ -3395,7 +3395,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="481c3fd96ed8f6520e1ac09afb214bd900fd729e" datatype="html">
         <source>Poland</source>
-	<target>Poland</target>
+        <target>Poland</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">84</context>
@@ -3405,7 +3405,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="95ed2fcf701b7304bfec2046bb06b64e883f8750" datatype="html">
         <source>Portugal</source>
-	<target>Portugal</target>
+        <target>Portugal</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">85</context>
@@ -3415,7 +3415,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="942bd209fc96fbac9f9e9584c80f6e4fcbdf85f3" datatype="html">
         <source>Romania</source>
-	<target>Romania</target>
+        <target>Romania</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">86</context>
@@ -3425,7 +3425,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="992e92d0ab529348212b29bf5dbc1a49d59f40f1" datatype="html">
         <source>Slovakia</source>
-	<target>Slovakia</target>
+        <target>Slovakia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">87</context>
@@ -3435,7 +3435,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="770eb11b50b5d2d9f5cefc1f7e324bf362526781" datatype="html">
         <source>Slovenia</source>
-	<target>Slovenia</target>
+        <target>Slovenia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">88</context>
@@ -3445,7 +3445,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="5164ffd671963b7cbf6d30b1a2b01fa881664742" datatype="html">
         <source>Spain</source>
-	<target>Spain</target>
+        <target>Spain</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">89</context>
@@ -3455,7 +3455,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="0547e26cef0a4f9f9ff468c1063f07c92187e488" datatype="html">
         <source>Sweden</source>
-	<target>Sweden</target>
+        <target>Sweden</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">90</context>
@@ -3465,7 +3465,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="cc6200411dd1bb62805c4a3a785f71906059cf10" datatype="html">
         <source>Switzerland</source>
-	<target>Switzerland</target>
+        <target>Switzerland</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">91</context>
@@ -3475,7 +3475,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1654e082825f9a705ac9ad75219ae59cc0cf5635" datatype="html">
         <source>United Kingdom</source>
-	<target>United Kingdom</target>
+        <target>United Kingdom</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">92</context>
@@ -3485,7 +3485,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="67277d40dff1f9a9959de048b27dbd7cb2c2ecb5" datatype="html">
         <source>United States</source>
-	<target>United States</target>
+        <target>United States</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">93</context>
@@ -3495,7 +3495,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="f11ba8eb4b1a9fd8a5b17ad1340275b3648189cc" datatype="html">
         <source>Copenhagen municipality user id</source>
-	<target>Copenhagen municipality user id</target>
+        <target>Copenhagen municipality user id</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">126</context>
@@ -3505,7 +3505,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="a91cd14c9a0dc96b051277472eada2d9fa0406f2" datatype="html">
         <source>CFR</source>
-	<target>CFR</target>
+        <target>CFR</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-address.component.ts</context>
           <context context-type="linenumber">133</context>
@@ -3515,7 +3515,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="9c1545a82eb8cc8ba1e22ef0f44e86ae14a16ca6" datatype="html">
         <source>EAN</source>
-	<target>EAN</target>
+        <target>EAN</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-details.component.ts</context>
           <context context-type="linenumber">2</context>
@@ -3524,7 +3524,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1970600f1394a3d10492042afea0c93897164592" datatype="html">
         <source>VAT number</source>
-	<target>VAT number</target>
+        <target>VAT number</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-details.component.ts</context>
           <context context-type="linenumber">9</context>
@@ -3534,7 +3534,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="13bc72e966b5731b329244dd969df7469b0c7fe7" datatype="html">
         <source>VAT number is not valid</source>
-	<target>VAT number is not valid</target>
+        <target>VAT number is not valid</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\invoice-details.component.ts</context>
           <context context-type="linenumber">16</context>
@@ -3544,7 +3544,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="55a854061af22ce8473016cb7303547fdb3d0b04" datatype="html">
         <source>1 year</source>
-	<target>1 year</target>
+        <target>1 year</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\payment-period.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -3554,7 +3554,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="673917b3825d9db9ffd533f0d7c7a46c6dea432c" datatype="html">
         <source>2 year</source>
-	<target>2 year</target>
+        <target>2 year</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\payment-period.component.ts</context>
           <context context-type="linenumber">2</context>
@@ -3564,7 +3564,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="1c5eb868073bb2b51a86221b22cb4c1c52717d1a" datatype="html">
         <source>Free</source>
-	<target>Free</target>
+        <target>Free</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\subscription-type.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -3574,7 +3574,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="f26ea21e5aacf4c754cecb43833ef1d1201d371d" datatype="html">
         <source>Premium</source>
-	<target>Premium</target>
+        <target>Premium</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\subscription-type.component.ts</context>
           <context context-type="linenumber">2</context>
@@ -3584,7 +3584,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ae87e781df0b3c7f6cc39940b6db8f2c95a02ff1" datatype="html">
         <source>Enterprise</source>
-	<target>Enterprise</target>
+        <target>Enterprise</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\shared\subscription\subscription-type.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -3594,7 +3594,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="e8223a22b0cac3410a299a5423392d80a27f9b31" datatype="html">
         <source>Private</source>
-	<target>Private</target>
+        <target>Private</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\customer-type.component.ts</context>
           <context context-type="linenumber">1</context>
@@ -3604,7 +3604,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="92ee403e800a0b6bb8d74c4a88ec7ef81c8202d9" datatype="html">
         <source>Business</source>
-	<target>Business</target>
+        <target>Business</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\customer-type.component.ts</context>
           <context context-type="linenumber">2</context>
@@ -3614,7 +3614,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="bed07c02a5bf0e459422551fd3b770ce264b323e" datatype="html">
         <source>Association</source>
-	<target>Association</target>
+        <target>Association</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\subscription\customer-type.component.ts</context>
           <context context-type="linenumber">3</context>
@@ -3624,7 +3624,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="ef5bb02baf949682cb04a49fdbcaa0a6ecb291cf" datatype="html">
         <source>Subscription Type</source>
-	<target>Subscription Type</target>
+        <target>Subscription Type</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\admin\users\admin-edit-subscription.component.ts</context>
           <context context-type="linenumber">6</context>
@@ -3633,7 +3633,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="cf415a208745a7b643bf47ea2756c8182ae737c1" datatype="html">
         <source>Expires on</source>
-	<target>Expires on</target>
+        <target>Expires on</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\admin\users\admin-edit-subscription.component.ts</context>
           <context context-type="linenumber">41</context>
@@ -3642,7 +3642,7 @@ Best regards</target>
       </trans-unit>
       <trans-unit id="9cb03a6402bf04056cce264191885437a44faa16" datatype="html">
         <source>Stop subscription</source>
-	<target>Stop subscription</target>
+        <target>Stop subscription</target>
         <context-group purpose="location">
           <context context-type="sourcefile">ClientApp\app\components\admin\users\admin-edit-subscription.component.ts</context>
           <context context-type="linenumber">50</context>

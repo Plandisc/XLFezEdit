@@ -8,8 +8,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="600">
     <Grid >
-            <ScrollViewer VerticalScrollBarVisibility="Visible" Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Border}},Path=ActualHeight}">
-            <DataGrid x:Name="Data" AutoGenerateColumns="False" RowDetailsVisibilityMode="Collapsed" Width="600" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Border}},Path=ActualHeight}" PreviewMouseWheel="DataGrid_PreviewMouseWheel">
+            <DataGrid x:Name="Data" AutoGenerateColumns="False" RowDetailsVisibilityMode="Collapsed"  >
                 <DataGrid.Columns>
                     <DataGridTextColumn Width="1*" Header="Source" Binding="{Binding Path=Source, Mode=OneWay}" />
                     <DataGridTextColumn Width="1*" Header="Target" Binding="{Binding Path=Target}" />

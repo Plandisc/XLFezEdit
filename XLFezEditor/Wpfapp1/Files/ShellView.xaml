@@ -11,26 +11,26 @@
     <Grid Name="grid_Main">
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="20" />
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="22" />
+            <RowDefinition Height="*" MinHeight="300" />
 
         </Grid.RowDefinitions>
-        <DockPanel LastChildFill="False" Grid.ColumnSpan="4" Background="#FFF0F0F0">
+        <DockPanel LastChildFill="False" Background="#FFF0F0F0">
             <Menu DockPanel.Dock="Top" Height="20"  >
                 <MenuItem Header="_File"  FontSize="13"  >
                     <MenuItem Header="_New" />
                     <MenuItem Header="_Open" x:Name="BtnOpenFile_Click"/>
-                    <MenuItem Header="_Save" />
+                    <MenuItem Header="_Save" x:Name="BtnSaveXLFFile"/>
                     <Separator />
                     <MenuItem Header="_Exit" />
                 </MenuItem>
             </Menu>
         </DockPanel>
 
-        <ContentControl x:Name="XLFDataVM" Margin="0,1,0,-439" Grid.Row="1"  />
+        <ContentControl x:Name="XLFDataVM" Grid.Row="1"  />
     </Grid>
 
 
