@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:cal="http://www.caliburnproject.org"
              xmlns:local="clr-namespace:XLFezEditor.Files"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="600">
     <Grid >
@@ -32,10 +33,11 @@
                             </Style>
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
-                    <DataGridTextColumn Width="1*" Header="Explanation" Binding="{Binding Path=Note, Mode=OneWay, FallbackValue=NA}">
+                    <DataGridTextColumn Width="1*" Header="Explanation" Binding="{Binding Path=Meaning, Mode=OneWay}">
+                        
                         <DataGridTextColumn.ElementStyle>
                             <Style>
-                                <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                                <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
                             </Style>
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
@@ -50,8 +52,7 @@
                 <DataGrid.RowDetailsTemplate>
                     <DataTemplate>
                         <WrapPanel Orientation="Vertical" Margin="10,10,10,10">
-                            <TextBlock>Source file : <TextBlock Text="{Binding Path=SourceFile, Mode=OneWay,FallbackValue=N/A}"/></TextBlock>
-                            <TextBlock>Line Number : <TextBlock Text="{Binding Path=LineNumber, Mode=OneWay,FallbackValue=N/A}"/></TextBlock>
+                            <TextBlock Text="{Binding Path=DetailsString, Mode=OneWay,FallbackValue=N/A}" />
                         </WrapPanel>
                     </DataTemplate>
                 </DataGrid.RowDetailsTemplate>

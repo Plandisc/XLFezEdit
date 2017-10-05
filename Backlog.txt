@@ -1,3 +1,4 @@
 Source copy to target button - ? -/ almost
-Text wrapping - .
 Quoutes translation - ?
+show Meaning if null bind to description - ? no fuckin clue how to bind this , targetNullValue doesnt accept bindings
+reEncoding memes

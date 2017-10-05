@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -47,7 +48,10 @@ namespace XLFezEditor.Files
         private void Copy(object sender, RoutedEventArgs e)
         {
             TransUnit obj = ((FrameworkElement)sender).DataContext as TransUnit;
-            obj.Target = obj.Source; // decode better
+            var tmp = obj.Source;
+            string tmp1 = obj.Source.ToString();
+            obj.Target = obj.Source.ToString(); // decode better
+            var placeholder = obj.Source;
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
@@ -45,8 +46,36 @@ namespace XLFezEditor.Files
             set
             {
                 element.Element(xnamespace + "target").Value = value;
-                NotifyOfPropertyChange(()=>Target);
+                NotifyOfPropertyChange(() => Target);
 
+            }
+        }
+
+        public string DetailsString
+        {
+            get
+            {
+                System.Text.StringBuilder detailsString = new System.Text.StringBuilder();
+                if (Meaning != null && Meaning != "")
+                {
+                    detailsString.Append("Description: " + Description);
+                    detailsString.AppendLine();
+                }
+
+                detailsString.Append("-----------------------");
+                detailsString.AppendLine();
+                foreach (var detail in Details)
+                {
+                    detailsString.Append("Source File: " + detail.source.ToString());
+                    detailsString.Append(detail.source.ToString());
+                    detailsString.AppendLine();
+                    detailsString.Append("Line Number: " + detail.lineNumber.ToString());
+                    detailsString.Append(detail.lineNumber.ToString());
+                    detailsString.AppendLine();
+                    detailsString.Append("-----------------------");
+                    detailsString.AppendLine();
+                }
+                return detailsString.ToString();
             }
         }
 
@@ -54,39 +83,75 @@ namespace XLFezEditor.Files
         {
             get
             {
+                List<ContextGroup> tmp = element.Elements(xnamespace + "context-group").Select(cg => GetFileAndLineNumber(cg)).ToList();
                 return element.Elements(xnamespace + "context-group").Select(cg => GetFileAndLineNumber(cg)).ToList();
             }
         }
 
         private ContextGroup GetFileAndLineNumber(XElement cg)
         {
-            var source = GetElementValue("context-group", "context", "sourcefile");
-            var lineNumber = GetElementValue("context-group", "context", "linenumber");
+            var source = GetElementValue("context-group", "context", "sourcefile", cg);
+            var lineNumber = GetElementValue("context-group", "context", "linenumber", cg);
             var list = new ContextGroup(source, lineNumber);
             return list;
         }
-
-        public string SourceFile
+        private string GetElementValue(string nodeParentName, string nodeName, string attributeName, XElement element)
         {
-            get
-            {
-               return GetElementValue("context-group", "context", "sourcefile");
-            }
+            List<XElement> xElements = this.element.Elements(xnamespace + nodeParentName).ToList();
+            xElements = xElements.Where(el => trimAndReturn(nodeName, attributeName, el, element) != null).ToList();
+
+            var elementValue = GetElementValue(xElements[0], nodeName,attributeName);
+
+            return elementValue;
         }
 
-        public string LineNumber
+        private string trimAndReturn(string nodeName, string attributeName, XElement el, XElement element)
         {
-            get
+            if (element == null)
             {
-                return GetElementValue("context-group", "context", "linenumber");
+                return null;
             }
+            else
+            {
+                var value = GetElementValue(element, nodeName, attributeName);
+                if (attributeName == "sourcefile")
+                {
+                    string chars = Regex.Replace(el.Value.ToString(), "[0-9]", "");
+                    if (value == chars)
+                    {
+
+                        return value;
+                    }
+
+                }
+                else if (attributeName == "linenumber")
+                {
+                    string chars = new String(el.Value.ToString().Where(Char.IsDigit).ToArray());
+
+                    if (value == chars)
+                    {
+                        return value;
+                    }
+                }
+            }
+
+            return null;
         }
 
-        public string Note
+        public string Description
         {
             get
             {
                 return GetElementValue("note", "description");
+            }
+        }
+
+        public string Meaning
+        {
+            get
+            {
+                var tmp = GetElementValue("note", "meaning");
+                return tmp;
             }
         }
 
@@ -97,7 +162,7 @@ namespace XLFezEditor.Files
 
             if (xElement == null)
             {
-                return "";
+                return null;
             }
             else
             {
@@ -115,10 +180,10 @@ namespace XLFezEditor.Files
         {
             if (element.HasElements)
             {
-              List<XElement>  elementList = element.Elements().ToList();
+                List<XElement> elementList = element.Elements().ToList();
                 if (elementList == null)
                 {
-                    return "";
+                    return null;
                 }
                 foreach (var listElement in elementList) // iterate through every element in the list
                 {
@@ -129,20 +194,24 @@ namespace XLFezEditor.Files
                         {
                             if (item.Value.Equals(attributeName))
                             {
+                                if(listElement.Value == "")
+                                {
+                                    return null;
+                                }
                                 return listElement.Value;
                             }
                         }
                     }
 
                 }
-                
+
             }
             else
-            { 
+            {
                 XElement xElement = element.Element(xnamespace + nodeName);
                 if (xElement == null)
                 {
-                    return "";
+                    return null;
                 }
                 if (xElement.HasAttributes)
                 {
@@ -151,28 +220,16 @@ namespace XLFezEditor.Files
                     {
                         if (item.Value.Equals(attributeName))
                         {
+                            if(xElement.Value == "")
+                            {
+                                return null;
+                            }
                             return xElement.Value;
                         }
                     }
                 }
             }
-
-            Console.WriteLine("no element with attribute name " + attributeName + " found");
-            return "";
-        }
-        private string GetElementValue(string nodeParentName, string nodeName, string attributeName)
-        {
-
-            XElement xElement = element.Element(xnamespace + nodeParentName);
-
-            if (xElement == null)
-            {
-                return "";
-            }
-            else
-            {
-                return GetElementValue(xElement,nodeName, attributeName);
-            }
+            return null;
         }
 
         private void SetTarget(string value)
