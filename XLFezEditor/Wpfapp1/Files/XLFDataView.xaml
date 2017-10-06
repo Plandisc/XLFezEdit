@@ -8,15 +8,32 @@
              xmlns:system="clr-namespace:System;assembly=mscorlib"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="600">
-    <Grid >
-        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType={x:Type Border}},Path=ActualHeight}" PreviewMouseWheel="DataGrid_PreviewMouseWheel">
-            <DataGrid x:Name="Data" AutoGenerateColumns="False" RowDetailsVisibilityMode="Collapsed">
+    <Grid Background="#FFF0F0F0" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Margin="6,0,0,0" Text="Filter: " Grid.Column="0"></TextBlock>
+        <TextBox Grid.Row="0" Grid.ColumnSpan="1" Grid.Column="1" Margin="0,0,74,0" x:Name="FilterText" >
+            <TextBox.InputBindings>
+                <KeyBinding Command="{Binding VisibleData}" Key="Enter" />
+            </TextBox.InputBindings>
+        </TextBox>
+            <ScrollViewer Grid.Row="1" Grid.ColumnSpan="5" VerticalScrollBarVisibility="Visible" PreviewMouseWheel="DataGrid_PreviewMouseWheel" Margin="0,0,0,-20">
+            <DataGrid x:Name="VisibleData" AutoGenerateColumns="False" RowDetailsVisibilityMode="Collapsed">
                 <DataGrid.Columns>
                     <DataGridTextColumn Width="1*" Header="Source" Binding="{Binding Path=Source, Mode=OneWay}">
                         <DataGridTextColumn.ElementStyle>
-                        <Style>
-                            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
-                        </Style>
+                            <Style>
+                                <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                            </Style>
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
                     <DataGridTemplateColumn Width="0.20*">
@@ -33,10 +50,19 @@
                             </Style>
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
-                    <DataGridTextColumn Width="1*" Header="Explanation" Binding="{Binding Path=Meaning, Mode=OneWay}">
-                        
+                    <DataGridTextColumn Width="1*" Header="Explanation">
                         <DataGridTextColumn.ElementStyle>
                             <Style>
+                                <Setter Property="TextBlock.Text">
+                                    <Setter.Value>
+                                        <MultiBinding Converter="{StaticResource nullOrEmptyConverter}">
+                                            <Binding RelativeSource="{RelativeSource AncestorType=DataGrid}" Path="DataContext.Meaning"/>
+                                            <Binding />
+                                        </MultiBinding>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="TextBlock.TextWrapping" Value="Wrap">
+                                </Setter>
                                 <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
                             </Style>
                         </DataGridTextColumn.ElementStyle>

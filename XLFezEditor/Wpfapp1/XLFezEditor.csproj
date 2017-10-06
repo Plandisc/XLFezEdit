@@ -76,6 +76,8 @@
     </Compile>
     <Compile Include="Files\BrowseFileViewModel.cs" />
     <Compile Include="Files\ContextGroup.cs" />
+    <Compile Include="Files\FilteredListConverter.cs" />
+    <Compile Include="Files\NullOrEmptyConverter.cs" />
     <Compile Include="Files\ShellViewModel.cs" />
     <Compile Include="Files\ShellView.xaml.cs">
       <DependentUpon>ShellView.xaml</DependentUpon>

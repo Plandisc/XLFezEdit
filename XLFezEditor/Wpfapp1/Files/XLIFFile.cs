@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -26,6 +27,11 @@ namespace XLFezEditor.Files
         {
             return document.Root.Element(ShellViewModel.xnamespace + "file").Element(ShellViewModel.xnamespace + "body").Elements();
         }
+        private XElement GetBodyElement()
+        {
+            return document.Root.Element(ShellViewModel.xnamespace + "file").Element(ShellViewModel.xnamespace + "body");
+        }
+
 
         public List<TransUnit> TransUnits { get; private set; }
 
@@ -45,22 +51,38 @@ namespace XLFezEditor.Files
             foreach (var node in elementsToAdd)
             {
                 CheckIfTarget(node);
-                TransUnits.Add(new TransUnit(node));
-                xElements.Add(node);
-                GetDocumentUnits().Last().AddAfterSelf(node);
+                
+                IEnumerable<XElement> units = GetDocumentUnits();
+                if (units.Any())
+                {
+                    units.Last().AddAfterSelf(node);
+                }
+                else
+                {
+                 GetBodyElement().Add(node);
+                }
+
+                var insertedNode = GetDocumentUnits().Last();
+                TransUnits.Add(new TransUnit(insertedNode));
+                xElements.Add(insertedNode);
             }
         }
 
+       
         private void CheckIfTarget(XElement node)
         {
             if(node.Element(ShellViewModel.xnamespace + "target") == null)
-            { 
-                node.Element(ShellViewModel.xnamespace + "source").AddAfterSelf(XElement.Parse("<target xmlns=\"" + ShellViewModel.xnamespace + "\"/>"));
+            {
+                XElement target = XElement.Parse("<target xmlns=\"" + ShellViewModel.xnamespace + "\">" + "</target>");
+                node.Element(ShellViewModel.xnamespace + "source").AddAfterSelf(target);
+                target.RemoveAttributes();
+                var tmp = node.Element(ShellViewModel.xnamespace + "target");
+                var tmp1 = node.Element(ShellViewModel.xnamespace + "source");
             }
         }
 
         public void Save()
-        {
+        {           
             document.Save(filePath);
         }
 

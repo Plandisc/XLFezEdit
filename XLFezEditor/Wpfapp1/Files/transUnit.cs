@@ -2,11 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Xml;
+using System.Windows;
 using System.Xml.Linq;
 
 namespace XLFezEditor.Files
@@ -45,9 +43,27 @@ namespace XLFezEditor.Files
             }
             set
             {
-                element.Element(xnamespace + "target").Value = value;
-                NotifyOfPropertyChange(() => Target);
+                if (element.Element(xnamespace + "target") != null)
+                {
+                    XElement newNodeContent = null;
+                    try
+                    {
+                        newNodeContent = XElement.Parse("<target xmlns=\"" + ShellViewModel.xnamespace + "\">" + value + "</target>");
+                        newNodeContent.RemoveAttributes();
+                        element.Element(xnamespace + "target").ReplaceWith(newNodeContent);
 
+                        NotifyOfPropertyChange(() => Target);
+                    }
+                    catch (System.Xml.XmlException e)
+                    {
+                        string message = "Input is invalid: Cannot use characters '<', '>', '&'";
+                        string caption = "Error";
+                        MessageBoxButton buttons = MessageBoxButton.OK;
+                        MessageBoxImage icon = MessageBoxImage.Error;
+                        MessageBox.Show(message, caption, buttons, icon);
+                        NotifyOfPropertyChange(() => Target);
+                    }
+                }
             }
         }
 
@@ -55,7 +71,7 @@ namespace XLFezEditor.Files
         {
             get
             {
-                System.Text.StringBuilder detailsString = new System.Text.StringBuilder();
+                StringBuilder detailsString = new StringBuilder();
                 if (Meaning != null && Meaning != "")
                 {
                     detailsString.Append("Description: " + Description);
@@ -83,7 +99,6 @@ namespace XLFezEditor.Files
         {
             get
             {
-                List<ContextGroup> tmp = element.Elements(xnamespace + "context-group").Select(cg => GetFileAndLineNumber(cg)).ToList();
                 return element.Elements(xnamespace + "context-group").Select(cg => GetFileAndLineNumber(cg)).ToList();
             }
         }
@@ -100,7 +115,7 @@ namespace XLFezEditor.Files
             List<XElement> xElements = this.element.Elements(xnamespace + nodeParentName).ToList();
             xElements = xElements.Where(el => trimAndReturn(nodeName, attributeName, el, element) != null).ToList();
 
-            var elementValue = GetElementValue(xElements[0], nodeName,attributeName);
+            var elementValue = GetElementValue(xElements[0], nodeName, attributeName);
 
             return elementValue;
         }
@@ -150,8 +165,7 @@ namespace XLFezEditor.Files
         {
             get
             {
-                var tmp = GetElementValue("note", "meaning");
-                return tmp;
+                return GetElementValue("note", "meaning");
             }
         }
 
@@ -166,8 +180,8 @@ namespace XLFezEditor.Files
             }
             else
             {
-                var nodeValue = element.Element(xnamespace + nodeName).Nodes().Select(s => s.NodeType == XmlNodeType.Text ? SecurityElement.Escape(s.ToString()) : s.ToString());
-                return string.Join("", nodeValue);
+                var nodeRegex = new Regex("</?" + nodeName + "[^>]*>");
+                return nodeRegex.Replace(xElement.ToString(), "");
             }
         }
 
@@ -194,7 +208,7 @@ namespace XLFezEditor.Files
                         {
                             if (item.Value.Equals(attributeName))
                             {
-                                if(listElement.Value == "")
+                                if (listElement.Value == "")
                                 {
                                     return null;
                                 }
@@ -220,7 +234,7 @@ namespace XLFezEditor.Files
                     {
                         if (item.Value.Equals(attributeName))
                         {
-                            if(xElement.Value == "")
+                            if (xElement.Value == "")
                             {
                                 return null;
                             }
@@ -232,17 +246,5 @@ namespace XLFezEditor.Files
             return null;
         }
 
-        private void SetTarget(string value)
-        {
-            XElement xElement = element.Element(xnamespace + "target");
-            if (xElement == null)
-            {
-                element.Element(xnamespace + "source").AddAfterSelf(XElement.Parse("<target>" + value + "</target>"));
-            }
-            else
-            {
-                xElement.Value = value;
-            }
-        }
     }
 }
