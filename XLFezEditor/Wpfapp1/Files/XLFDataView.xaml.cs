@@ -53,5 +53,11 @@ namespace XLFezEditor.Files
             obj.Target = obj.Source.ToString(); // decode better
             var placeholder = obj.Source;
         }
+
+        private void Bind_Filter(object sender, RoutedEventArgs e)
+        {
+                FrameworkElement fe = sender as FrameworkElement;
+                ((XLFDataViewModel)fe.DataContext).bindFilteredList();
+        }
     }
 }

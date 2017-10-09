@@ -12,14 +12,15 @@ namespace XLFezEditor.Files
 {
     public class XLFDataViewModel : PropertyChangedBase
     {
-
-        private BindableCollection<TransUnit> OriginData;
-        private bool OriginStored = false;
-
+        
         private BindableCollection<TransUnit> _data;
         public BindableCollection<TransUnit> Data
         {
-            get { return _data; }
+            get
+            {
+                Console.WriteLine("Got data");
+                return _data;
+            }
             set
             {
                 _data = value;
@@ -28,30 +29,19 @@ namespace XLFezEditor.Files
         }
         public XLFDataViewModel() { }
 
-        public BindableCollection<TransUnit> VisibleData()
-        {
-            if (!String.IsNullOrWhiteSpace(FilterText))
-            {
-                FilteredData = null;
-                foreach (var unit in Data)
-                {
-                    if(unit.Source.Contains(FilterText))
-                    {
-                        FilteredData.Add(unit);
-                    }
-                }
-                return FilteredData;
-            }
-            else
-            {
-                return Data;
-            }
-        }
-
         private BindableCollection<TransUnit> _filteredData;
         public BindableCollection<TransUnit> FilteredData
         {
-            get { return _filteredData; }
+            get
+            {
+                if (_filteredData != null)
+                {
+                    Console.WriteLine("Got FILTERED data");
+                    return _filteredData;
+                }
+                return Data;
+
+            }
             set
             {
                 _filteredData = value;
@@ -73,23 +63,34 @@ namespace XLFezEditor.Files
             }
         }
 
-        private void bindFilteredList(string text)
-        {
-
-            if(!String.IsNullOrWhiteSpace(text))
-            {
-                foreach (var unit in Data)
-                {
-
-                }
-            }
-        }
-
         public void bindList(List<TransUnit> Data)
         {
             BindableCollection<TransUnit> dataCollection = new BindableCollection<TransUnit>(Data);
             this.Data = dataCollection;
+            FilteredData = this.Data;
             Console.WriteLine("data bound");
+        }
+        public void bindFilteredList()
+        {
+            if (Data != null)
+            {
+                BindableCollection<TransUnit> filteredData = new BindableCollection<TransUnit>();
+                foreach (var unit in Data)
+                {
+                    if (unit.Source.ToLower().Contains(FilterText.ToLower()))
+                    {
+                        filteredData.Add(unit);
+                    }
+                }
+                FilteredData = filteredData;
+
+                Console.WriteLine("FILTERED data bound");
+            }
+        }
+
+        public void clear()
+        {
+
         }
 
     }
