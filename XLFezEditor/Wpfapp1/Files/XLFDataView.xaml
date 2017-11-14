@@ -30,7 +30,7 @@
             </TextBox.InputBindings>
         </TextBox>
         <Button Grid.Row="0" Grid.Column="2" Margin="0,0,86,0" Click="Bind_Filter">Filter</Button>
-        <ScrollViewer Grid.Row="1" Grid.ColumnSpan="5" VerticalScrollBarVisibility="Visible" PreviewMouseWheel="DataGrid_PreviewMouseWheel" Margin="0,0,0,-20">
+        <ScrollViewer Grid.Row="1" Grid.ColumnSpan="5" Margin="0,5,0,0"  VerticalScrollBarVisibility="Visible" PreviewMouseWheel="DataGrid_PreviewMouseWheel" >
             <DataGrid x:Name="FilteredData" AutoGenerateColumns="False" RowDetailsVisibilityMode="Collapsed">
                 <DataGrid.Columns>
                     <DataGridTextColumn Width="1*" Header="Source" Binding="{Binding Path=Source, Mode=OneWay}">

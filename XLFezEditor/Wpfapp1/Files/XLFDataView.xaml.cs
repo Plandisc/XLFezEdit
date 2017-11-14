@@ -49,15 +49,15 @@ namespace XLFezEditor.Files
         {
             TransUnit obj = ((FrameworkElement)sender).DataContext as TransUnit;
             var tmp = obj.Source;
-            string tmp1 = obj.Source.ToString();
-            obj.Target = obj.Source.ToString(); // decode better
+            string tmp1 = obj.Source;
+            obj.Target = obj.Source;
             var placeholder = obj.Source;
         }
 
         private void Bind_Filter(object sender, RoutedEventArgs e)
         {
-                FrameworkElement fe = sender as FrameworkElement;
-                ((XLFDataViewModel)fe.DataContext).bindFilteredList();
+            FrameworkElement fe = sender as FrameworkElement;
+            ((XLFDataViewModel)fe.DataContext).bindFilteredList();
         }
     }
 }
