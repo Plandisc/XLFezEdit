@@ -23,6 +23,12 @@ namespace XLFezEditor
         public ShellView()
         {
             InitializeComponent();
+            Title = "The Ultimate XLF Tool";             
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

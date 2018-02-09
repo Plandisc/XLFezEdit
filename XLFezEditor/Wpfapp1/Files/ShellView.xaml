@@ -6,7 +6,7 @@
              xmlns:cal="http://www.caliburnproject.org"
              xmlns:local="clr-namespace:XLFezEditor"
              mc:Ignorable="d" 
-             Width="912.167" Height="492.593">
+             Width="912.167" Height="492.593" Icon="xlfIcon.ico">
 
     <Grid Name="grid_Main">
 
@@ -23,11 +23,11 @@
                 <MenuItem Header="_File"  FontSize="13"  >
                     <MenuItem Header="_New" />
                     <MenuItem Header="_Open..." x:Name="BtnOpenFile_Click"/>
-                    <MenuItem Header="_Save Opened File" x:Name="BtnSaveXLFFile"/>
+                    <MenuItem Header="_Save" x:Name="BtnSaveXLFFile"/>
                     <MenuItem Header="_Save As..." x:Name="BtnSaveAs"/>
                     <MenuItem Header="_Update From Master..." x:Name="BtnUpdateFrom"/>
                     <Separator />
-                    <MenuItem Header="_Exit" />
+                    <MenuItem Header="_Exit" Click="MenuItem_Click" />
                 </MenuItem>
             </Menu>
         </DockPanel>
