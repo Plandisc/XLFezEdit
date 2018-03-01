@@ -11,9 +11,9 @@ namespace XLFezEditor.Files
 {
     class XLIFFile
     {
-        public static XDocument document;
+        private XDocument document;
         public List<XElement> xElements { get; private set; }
-        public static string filePath;
+        private string filePath;
 
         public void Load(string filename)
         {
@@ -81,7 +81,7 @@ namespace XLFezEditor.Files
             }
         }
 
-        public static void Save()
+        public void Save()
         {           
             document.Save(filePath);
         }

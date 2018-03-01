@@ -33,6 +33,8 @@ namespace XLFezEditor
             Close();
         }
 
+        XLIFFile xlifFile = new XLIFFile();
+
         void DataWindow_Closing(object sender, CancelEventArgs e)
         {
             string messageBoxText = "Do you want to save any unsaved changes before you leave?";
@@ -44,7 +46,7 @@ namespace XLFezEditor
             switch (result)
             {
                 case MessageBoxResult.Yes:
-                    XLIFFile.Save();
+                    xlifFile.Save();
                     break;
                 case MessageBoxResult.No:
                     try

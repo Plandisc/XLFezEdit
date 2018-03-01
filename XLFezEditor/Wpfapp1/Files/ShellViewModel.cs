@@ -52,7 +52,7 @@ namespace XLFezEditor
         {
             if (xlifFile != null)
             {
-                XLIFFile.Save();
+                xlifFile.Save();
             }
             else
             {
