@@ -1,19 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.ComponentModel;
-using XLFezEditor.Files;
 
 namespace XLFezEditor
 {
@@ -33,20 +20,19 @@ namespace XLFezEditor
             Close();
         }
 
-        XLIFFile xlifFile = new XLIFFile();
-
         void DataWindow_Closing(object sender, CancelEventArgs e)
         {
             string messageBoxText = "Do you want to save any unsaved changes before you leave?";
             string caption = "The Ultimate XLF Tool";
             MessageBoxButton button = MessageBoxButton.YesNoCancel;
             MessageBoxImage icon = MessageBoxImage.Warning;
+            var model = this.DataContext as ShellViewModel;
 
             MessageBoxResult result = MessageBox.Show(messageBoxText, caption, button, icon);
             switch (result)
             {
                 case MessageBoxResult.Yes:
-                    xlifFile.Save();
+                    model.Save();
                     break;
                 case MessageBoxResult.No:
                     try

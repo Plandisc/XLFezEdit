@@ -1,13 +1,10 @@
 ﻿using Caliburn.Micro;
 using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Windows;
-using System.Xml;
 using System.Xml.Linq;
 using XLFezEditor.Files;
+using System.ComponentModel;
 
 namespace XLFezEditor
 {
@@ -36,18 +33,44 @@ namespace XLFezEditor
             XLFDataVM = new XLFDataViewModel();
         }
 
-        public void BtnOpenFile_Click(object sender, RoutedEventArgs e)
+        public void Save()
         {
+            xlifFile.Save();
+        }
 
-            var openFileDialog = new OpenFileDialog();
-            if (openFileDialog.ShowDialog() == true)
+        public void SaveBeforeOpen()
+        {
+            string messageBoxText = "Do you want to save any unsaved changes?";
+            string caption = "Before you close this file";
+            MessageBoxButton button = MessageBoxButton.YesNo;
+            MessageBoxImage icon = MessageBoxImage.Warning;
+
+            MessageBoxResult result = MessageBox.Show(messageBoxText, caption, button, icon);
+            switch (result)
             {
-                xlifFile = new XLIFFile();
-                xlifFile.Load(openFileDialog.FileName);
-
-                XLFDataVM.bindList(xlifFile.TransUnits);
+                case MessageBoxResult.Yes:
+                    xlifFile.Save();
+                    break;
             }
         }
+
+        public void BtnOpenFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (xlifFile != null)
+            {
+                SaveBeforeOpen();
+            }
+
+                var openFileDialog = new OpenFileDialog();
+                if (openFileDialog.ShowDialog() == true)
+                {
+                    xlifFile = new XLIFFile();
+                    xlifFile.Load(openFileDialog.FileName);
+
+                    XLFDataVM.bindList(xlifFile.TransUnits);
+                }
+        }
+
         public void BtnSaveXLFFile()
         {
             if (xlifFile != null)
