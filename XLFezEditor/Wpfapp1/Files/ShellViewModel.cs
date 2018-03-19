@@ -5,6 +5,8 @@ using System.Windows;
 using System.Xml.Linq;
 using XLFezEditor.Files;
 using System.ComponentModel;
+using System.Windows.Input;
+using System.Windows.Threading;
 
 namespace XLFezEditor
 {
@@ -64,11 +66,16 @@ namespace XLFezEditor
                 var openFileDialog = new OpenFileDialog();
                 if (openFileDialog.ShowDialog() == true)
                 {
+                Mouse.OverrideCursor = Cursors.Wait;
                     xlifFile = new XLIFFile();
                     xlifFile.Load(openFileDialog.FileName);
 
                     XLFDataVM.bindList(xlifFile.TransUnits);
-                }
+                Application.Current.Dispatcher.Invoke(DispatcherPriority.ApplicationIdle, new System.Action(() =>
+                {
+                    Mouse.OverrideCursor = Cursors.Arrow;
+                }));
+            }
         }
 
         public void BtnSaveXLFFile()
@@ -114,10 +121,15 @@ namespace XLFezEditor
                 var openFileDialog = new OpenFileDialog();
                 if (openFileDialog.ShowDialog() == true)
                 {
+                    Mouse.OverrideCursor = Cursors.Wait;
                     var master = new XLIFFile();
                     master.Load(openFileDialog.FileName);
                     xlifFile.Update(master);
                     XLFDataVM.bindList(xlifFile.TransUnits);
+                    Application.Current.Dispatcher.Invoke(DispatcherPriority.ApplicationIdle, new System.Action(() =>
+                    {
+                        Mouse.OverrideCursor = Cursors.Arrow;
+                    }));
                 }
 
             }
