@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-
+using XLFezEditor.Files.XLIFF;
 
 namespace XLFezEditor.Files
 {
@@ -37,6 +37,28 @@ namespace XLFezEditor.Files
 
         public void Update(XLIFFile master)
         {
+            RemoveNodes(master);
+
+            UpdateSourceTextInExistingNodes(master);
+
+            AddNewNodes(master);
+        }
+
+        private void UpdateSourceTextInExistingNodes(XLIFFile master)
+        {
+            foreach (var node in xElements)
+            {
+                var masterNode = master.xElements.FirstOrDefault(e => e.Attribute("id").Value == node.Attribute("id").Value);
+                if (masterNode != null)
+                {
+                    var masterValue = XLFTool.GetElementValue(masterNode, "source");
+                    XLFTool.SetElementValue(node, "source", masterValue);
+                }
+            }
+        }
+
+        private void RemoveNodes(XLIFFile master)
+        {
             var masterIds = master.xElements.Select(e => e.Attribute("id").Value).ToList();
             var elementsToRemove = xElements.Where(e => !masterIds.Contains(e.Attribute("id").Value)).ToList();
             foreach (var node in elementsToRemove)
@@ -45,13 +67,16 @@ namespace XLFezEditor.Files
                 TransUnits = TransUnits.Where(unit => unit.Id != node.Attribute("id").Value).ToList();
                 xElements.Remove(node);
             }
+        }
 
+        private void AddNewNodes(XLIFFile master)
+        {
             var ids = xElements.Select(e => e.Attribute("id").Value).ToList();
             var elementsToAdd = master.xElements.Where(id => !ids.Contains(id.Attribute("id").Value)).ToList();
             foreach (var node in elementsToAdd)
             {
                 CheckIfTarget(node);
-                
+
                 IEnumerable<XElement> units = GetDocumentUnits();
                 if (units.Any())
                 {
@@ -59,7 +84,7 @@ namespace XLFezEditor.Files
                 }
                 else
                 {
-                 GetBodyElement().Add(node);
+                    GetBodyElement().Add(node);
                 }
 
                 var insertedNode = GetDocumentUnits().Last();
@@ -68,7 +93,6 @@ namespace XLFezEditor.Files
             }
         }
 
-       
         private void CheckIfTarget(XElement node)
         {
             if(node.Element(ShellViewModel.xnamespace + "target") == null)

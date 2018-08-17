@@ -7,7 +7,8 @@
              xmlns:local="clr-namespace:XLFezEditor"
              mc:Ignorable="d" 
              Width="912.167" Height="492.593" Icon="xlfIcon.ico"
-             Closing="DataWindow_Closing">
+             Closing="DataWindow_Closing"
+             Title="{Binding windowTitle}">
 
     <Grid Name="grid_Main">
 

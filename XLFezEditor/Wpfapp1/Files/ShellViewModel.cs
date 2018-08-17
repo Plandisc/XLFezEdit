@@ -17,6 +17,18 @@ namespace XLFezEditor
         public IEventAggregator events;
         private XLFDataViewModel _xlfDataVM;
         private XLIFFile xlifFile;
+        private static string fileName = "";
+
+        private static bool _isDirty = false;
+        public static bool isDirty
+        {
+            get { return _isDirty; }
+            set
+            {
+                _isDirty = value;
+                SetWindowTitle();
+            }
+        }
 
         public XLFDataViewModel XLFDataVM
         {
@@ -38,21 +50,25 @@ namespace XLFezEditor
         public void Save()
         {
             xlifFile.Save();
+            isDirty = false;
         }
 
         public void SaveBeforeOpen()
         {
-            string messageBoxText = "Do you want to save any unsaved changes?";
-            string caption = "Before you close this file";
-            MessageBoxButton button = MessageBoxButton.YesNo;
-            MessageBoxImage icon = MessageBoxImage.Warning;
-
-            MessageBoxResult result = MessageBox.Show(messageBoxText, caption, button, icon);
-            switch (result)
+            if (isDirty)
             {
-                case MessageBoxResult.Yes:
-                    xlifFile.Save();
-                    break;
+                string messageBoxText = "Do you want to save any unsaved changes?";
+                string caption = "Before you close this file";
+                MessageBoxButton button = MessageBoxButton.YesNo;
+                MessageBoxImage icon = MessageBoxImage.Warning;
+
+                MessageBoxResult result = MessageBox.Show(messageBoxText, caption, button, icon);
+                switch (result)
+                {
+                    case MessageBoxResult.Yes:
+                        xlifFile.Save();
+                        break;
+                }
             }
         }
 
@@ -63,18 +79,32 @@ namespace XLFezEditor
                 SaveBeforeOpen();
             }
 
-                var openFileDialog = new OpenFileDialog();
-                if (openFileDialog.ShowDialog() == true)
-                {
+            var openFileDialog = new OpenFileDialog();
+            if (openFileDialog.ShowDialog() == true)
+            {
                 Mouse.OverrideCursor = Cursors.Wait;
-                    xlifFile = new XLIFFile();
-                    xlifFile.Load(openFileDialog.FileName);
+                xlifFile = new XLIFFile();
+                fileName = openFileDialog.FileName;
+                xlifFile.Load(fileName);
 
-                    XLFDataVM.bindList(xlifFile.TransUnits);
+                XLFDataVM.bindList(xlifFile.TransUnits);
                 Application.Current.Dispatcher.Invoke(DispatcherPriority.ApplicationIdle, new System.Action(() =>
                 {
                     Mouse.OverrideCursor = Cursors.Arrow;
                 }));
+                isDirty = false;
+
+                SetWindowTitle();
+            }
+        }
+
+        private static void SetWindowTitle()
+        {
+            var currentApp = Application.Current as App;
+            if (currentApp != null)
+            {
+                var window = currentApp.MainWindow as ShellView;
+                window.SetSubTitle(fileName + (isDirty ? "*" : ""));
             }
         }
 
@@ -83,6 +113,7 @@ namespace XLFezEditor
             if (xlifFile != null)
             {
                 xlifFile.Save();
+                isDirty = false;
             }
             else
             {
@@ -103,6 +134,7 @@ namespace XLFezEditor
                 {
                     xlifFile.SaveAs(saveAsFileDialog.FileName);
                 }
+                isDirty = false;
             }
             else
             {
@@ -114,6 +146,7 @@ namespace XLFezEditor
             }
 
         }
+
         public void BtnUpdateFrom()
         {
             if (xlifFile != null)
@@ -130,6 +163,7 @@ namespace XLFezEditor
                     {
                         Mouse.OverrideCursor = Cursors.Arrow;
                     }));
+                    isDirty = true;
                 }
 
             }

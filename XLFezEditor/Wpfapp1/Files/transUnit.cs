@@ -6,13 +6,13 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Xml.Linq;
+using XLFezEditor.Files.XLIFF;
 
 namespace XLFezEditor.Files
 {
     public class TransUnit : PropertyChangedBase
     {
         private readonly XElement element;
-        private XNamespace xnamespace = "urn:oasis:names:tc:xliff:document:1.2"; // TODO Get namespace from document
 
         public TransUnit(XElement element)
         {
@@ -43,27 +43,8 @@ namespace XLFezEditor.Files
             }
             set
             {
-                if (element.Element(xnamespace + "target") != null)
-                {
-                    XElement newNodeContent = null;
-                    try
-                    {
-                        newNodeContent = XElement.Parse("<target xmlns=\"" + ShellViewModel.xnamespace + "\">" + value + "</target>");
-                        newNodeContent.RemoveAttributes();
-                        element.Element(xnamespace + "target").ReplaceWith(newNodeContent);
-
-                        NotifyOfPropertyChange(() => Target);
-                    }
-                    catch (System.Xml.XmlException e)
-                    {
-                        string message = "Input is invalid: Cannot use characters '<', '>', '&'";
-                        string caption = "Error";
-                        MessageBoxButton buttons = MessageBoxButton.OK;
-                        MessageBoxImage icon = MessageBoxImage.Error;
-                        MessageBox.Show(message, caption, buttons, icon);
-                        NotifyOfPropertyChange(() => Target);
-                    }
-                }
+                SetElementValue("target", value);
+                ShellViewModel.isDirty = true;
             }
         }
 
@@ -99,7 +80,7 @@ namespace XLFezEditor.Files
         {
             get
             {
-                return element.Elements(xnamespace + "context-group").Select(cg => GetFileAndLineNumber(cg)).ToList();
+                return element.Elements(ShellViewModel.xnamespace + "context-group").Select(cg => GetFileAndLineNumber(cg)).ToList();
             }
         }
 
@@ -112,7 +93,7 @@ namespace XLFezEditor.Files
         }
         private string GetElementValue(string nodeParentName, string nodeName, string attributeName, XElement element)
         {
-            List<XElement> xElements = this.element.Elements(xnamespace + nodeParentName).ToList();
+            List<XElement> xElements = this.element.Elements(ShellViewModel.xnamespace + nodeParentName).ToList();
             xElements = xElements.Where(el => trimAndReturn(nodeName, attributeName, el, element) != null).ToList();
 
             var elementValue = GetElementValue(xElements[0], nodeName, attributeName);
@@ -171,18 +152,7 @@ namespace XLFezEditor.Files
 
         private string GetElementValue(string nodeName)
         {
-
-            XElement xElement = element.Element(xnamespace + nodeName);
-
-            if (xElement == null)
-            {
-                return null;
-            }
-            else
-            {
-                var nodeRegex = new Regex("</?" + nodeName + "[^>]*>");
-                return nodeRegex.Replace(xElement.ToString(), "");
-            }
+            return XLFTool.GetElementValue(element, nodeName);
         }
 
         private string GetElementValue(string nodeName, string attributeName)
@@ -222,7 +192,7 @@ namespace XLFezEditor.Files
             }
             else
             {
-                XElement xElement = element.Element(xnamespace + nodeName);
+                XElement xElement = element.Element(ShellViewModel.xnamespace + nodeName);
                 if (xElement == null)
                 {
                     return null;
@@ -244,6 +214,28 @@ namespace XLFezEditor.Files
                 }
             }
             return null;
+        }
+
+
+        private void SetElementValue(string elementName, string value)
+        {
+            if (element.Element(ShellViewModel.xnamespace + elementName) != null)
+            {
+                try
+                {
+                    XLFTool.SetElementValue(element, elementName, value);
+                    NotifyOfPropertyChange(() => Target);
+                }
+                catch (System.Xml.XmlException e)
+                {
+                    string message = "Input is invalid: Cannot use characters '<', '>', '&'";
+                    string caption = "Error";
+                    MessageBoxButton buttons = MessageBoxButton.OK;
+                    MessageBoxImage icon = MessageBoxImage.Error;
+                    MessageBox.Show(message, caption, buttons, icon);
+                    NotifyOfPropertyChange(() => Target);
+                }
+            }
         }
 
     }

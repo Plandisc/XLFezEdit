@@ -12,7 +12,12 @@ namespace XLFezEditor
         public ShellView()
         {
             InitializeComponent();
-            Title = "The Ultimate XLF Tool";
+            this.SetSubTitle("");
+        }
+
+        public void SetSubTitle(string subTitle)
+        {
+            this.Title = "The Ultimate XLF Tool" + (subTitle != "" ? " - " + subTitle : "");
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
@@ -22,31 +27,34 @@ namespace XLFezEditor
 
         void DataWindow_Closing(object sender, CancelEventArgs e)
         {
-            string messageBoxText = "Do you want to save any unsaved changes before you leave?";
-            string caption = "The Ultimate XLF Tool";
-            MessageBoxButton button = MessageBoxButton.YesNoCancel;
-            MessageBoxImage icon = MessageBoxImage.Warning;
-            var model = this.DataContext as ShellViewModel;
-
-            MessageBoxResult result = MessageBox.Show(messageBoxText, caption, button, icon);
-            switch (result)
+            if (ShellViewModel.isDirty)
             {
-                case MessageBoxResult.Yes:
-                    model.Save();
-                    break;
-                case MessageBoxResult.No:
-                    try
-                    {
-                        Close();
-                    }
-                    catch
-                    {
-                        InvalidOperationException exc = new InvalidOperationException();
-                    }
-                    break;
-                case MessageBoxResult.Cancel:
-                    e.Cancel = true;
-                    break;
+                string messageBoxText = "Do you want to save any unsaved changes before you leave?";
+                string caption = "The Ultimate XLF Tool";
+                MessageBoxButton button = MessageBoxButton.YesNoCancel;
+                MessageBoxImage icon = MessageBoxImage.Warning;
+                var model = this.DataContext as ShellViewModel;
+
+                MessageBoxResult result = MessageBox.Show(messageBoxText, caption, button, icon);
+                switch (result)
+                {
+                    case MessageBoxResult.Yes:
+                        model.Save();
+                        break;
+                    case MessageBoxResult.No:
+                        try
+                        {
+                            Close();
+                        }
+                        catch
+                        {
+                            InvalidOperationException exc = new InvalidOperationException();
+                        }
+                        break;
+                    case MessageBoxResult.Cancel:
+                        e.Cancel = true;
+                        break;
+                }
             }
         }
     }

@@ -94,6 +94,7 @@
     </Compile>
     <Compile Include="Files\XLFDataViewModel.cs" />
     <Compile Include="Files\XLIFFile.cs" />
+    <Compile Include="Files\XLIFF\XLFTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
